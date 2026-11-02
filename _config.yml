@@ -12,7 +12,7 @@ pi_profiles:
   - https://scholar.google.co.jp/citations?user=D7xiqz0AAAAJ
   - https://nrid.nii.ac.jp/ja/nrid/1000040708997/
 # Google Search Console の「HTML タグ」で確認するときは、content="..." の中身をここに貼る
-google_site_verification: ""
+google_site_verification: "Y90EMEd19RJSffatbeJIJpggAGN4lZeJ22PyMtgLwh8"
 email: "dice-k@uec.ac.jp"
 tel: "042-443-5146"
 
