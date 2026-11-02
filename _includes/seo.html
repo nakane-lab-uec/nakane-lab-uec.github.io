@@ -1,0 +1,96 @@
+{% comment %} 検索エンジン・SNS向けの情報。タイトル・説明・共有用画像・研究室の基本情報（構造化データ） {% endcomment %}
+{% if page.url == "/" %}
+  {% assign seo_title = site.home_title | default: site.title %}
+{% elsif page.layout == "post" %}
+  {% capture seo_title %}{{ page.title | strip_html }} | {{ site.title }}{% endcapture %}
+{% else %}
+  {% capture seo_title %}{{ page.title | strip_html }}{% if page.title_en %} / {{ page.title_en }}{% endif %} | {{ site.title }}{% endcapture %}
+{% endif %}
+{% if page.description %}
+  {% assign seo_desc = page.description %}
+{% elsif page.layout == "post" and page.excerpt %}
+  {% assign seo_desc = page.excerpt %}
+{% else %}
+  {% assign seo_desc = site.description %}
+{% endif %}
+{% assign seo_desc = seo_desc | strip_html | strip_newlines | normalize_whitespace | truncate: 160 %}
+{% assign seo_image = page.image | default: site.default_image %}
+{% unless seo_image contains "://" %}{% assign seo_image = seo_image | absolute_url %}{% endunless %}
+<title>{{ seo_title | strip }}</title>
+<meta name="description" content="{{ seo_desc | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ seo_title | strip | escape }}">
+<meta property="og:description" content="{{ seo_desc | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:image" content="{{ seo_image }}">
+<meta name="twitter:card" content="summary_large_image">
+{% if site.google_site_verification and site.google_site_verification != "" %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
+<link rel="sitemap" type="application/xml" href="{{ '/sitemap.xml' | relative_url }}">
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ResearchOrganization",
+      "@id": "{{ '/#lab' | absolute_url }}",
+      "name": "中根研究室（電気通信大学）",
+      "alternateName": ["Nakane Lab", "Nakane Laboratory, The University of Electro-Communications", "中根研"],
+      "description": {{ site.description | jsonify }},
+      "url": "{{ '/' | absolute_url }}",
+      "image": "{{ site.default_image | absolute_url }}",
+      "email": "{{ site.email }}",
+      "telephone": "+81-42-443-5146",
+      "foundingDate": "2020-10",
+      "knowsAbout": ["bacterial motility", "細菌の運動", "optical microscopy", "光学顕微鏡", "microbiology", "微生物学", "biophysics", "生物物理", "rheotaxis", "走流性", "flagella", "べん毛", "gliding motility", "滑走運動", "microfluidics"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1-5-1 Chofugaoka, West Bldg. 2, Room 413",
+        "addressLocality": "Chofu",
+        "addressRegion": "Tokyo",
+        "postalCode": "182-8585",
+        "addressCountry": "JP"
+      },
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "電気通信大学 The University of Electro-Communications (UEC)",
+        "url": "https://www.uec.ac.jp/"
+      },
+      "founder": { "@id": "{{ '/#pi' | absolute_url }}" },
+      "sameAs": [{% for l in site.data.social %}{% unless l.url contains "uec.ac.jp" %}"{{ l.url }}"{% unless forloop.last %}, {% endunless %}{% endunless %}{% endfor %}]
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ '/#pi' | absolute_url }}",
+      "name": "中根 大介",
+      "alternateName": "Daisuke Nakane",
+      "jobTitle": "Associate Professor",
+      "worksFor": { "@id": "{{ '/#lab' | absolute_url }}" },
+      "affiliation": { "@type": "CollegeOrUniversity", "name": "The University of Electro-Communications", "url": "https://www.uec.ac.jp/" },
+      "url": "{{ '/people/' | absolute_url }}",
+      "image": "{{ site.data.pi.photo | absolute_url }}",
+      "sameAs": {{ site.pi_profiles | jsonify }}
+    }
+  ]
+}
+</script>
+{% elsif page.layout == "post" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  {% if page.title_en %}"alternativeHeadline": {{ page.title_en | jsonify }},{% endif %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "image": "{{ seo_image }}",
+  "url": "{{ page.url | absolute_url }}",
+  "inLanguage": "ja",
+  "author": { "@type": "Organization", "name": "中根研究室 Nakane Lab, UEC", "url": "{{ '/' | absolute_url }}" },
+  "publisher": { "@type": "Organization", "name": "中根研究室 Nakane Lab, UEC", "url": "{{ '/' | absolute_url }}" }
+}
+</script>
+{% endif %}

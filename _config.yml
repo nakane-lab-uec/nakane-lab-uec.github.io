@@ -1,6 +1,18 @@
 # ===== サイト全体の設定 =====
 title: "中根研究室 Nakane Lab@UEC"
-description: "電気通信大学 基盤理工学専攻 中根大介の研究室。光学顕微鏡を工夫して、小さな生命体（細菌）がなぜ・どのように動くのかを研究しています。"
+# トップページのタイトル（検索結果に表示されます）
+home_title: "電気通信大学 中根研究室｜Nakane Lab, UEC Tokyo — 細菌の運動と光学顕微鏡"
+description: "電気通信大学 基盤理工学専攻 中根大介の研究室。光学顕微鏡を工夫して、細菌がなぜ・どのように動くのかを研究しています。Nakane Lab at UEC, Tokyo studies how and why bacteria move, using optical microscopy and microfluidic devices."
+# SNS などで共有されたときの画像（記事に写真がないときに使う）
+default_image: /assets/img/people/ef46f92064430a15.jpg
+# 中根の研究者プロフィール（検索エンジン向け）
+pi_profiles:
+  - https://orcid.org/0000-0002-8201-2608
+  - https://researchmap.jp/daisuke.nakane
+  - https://scholar.google.co.jp/citations?user=D7xiqz0AAAAJ
+  - https://nrid.nii.ac.jp/ja/nrid/1000040708997/
+# Google Search Console の「HTML タグ」で確認するときは、content="..." の中身をここに貼る
+google_site_verification: ""
 email: "dice-k@uec.ac.jp"
 tel: "042-443-5146"
 
@@ -24,6 +36,10 @@ defaults:
     values: { layout: post }
   - scope: { path: "" }
     values: { layout: page }
+
+# サイトマップ（sitemap.xml）を自動で作る
+plugins:
+  - jekyll-sitemap
 
 exclude:
   - README.md
