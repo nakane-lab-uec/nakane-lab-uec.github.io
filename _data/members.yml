@@ -1,0 +1,111 @@
+# メンバー一覧（上から順に表示）。トップページのカルーセルと「メンバー」ページに使われます。
+# grade: D3 D2 D1 M2 M1 B4 RS（研究生）PD（ポスドク）など。表示名は _data/grades.yml で決まります。
+# photo の写真は assets/img/people/ に置きます。pos は丸く切り抜くときの位置（横% 縦%）。
+
+- name: "上村 直輝"
+  name_en: "Naoki Uemura"
+  grade: D3
+  note: "学振特別研究員 (DC1)"
+  note_en: "JSPS Research Fellow (DC1)"
+  theme: "細菌の走流性、速い細菌、流れをかける実験、ドリル運動"
+  theme_en: "Bacterial rheotaxis, fast bacteria, flow experiments, drill-like motility"
+  photo: /assets/img/people/6b97c3cdbbee660a.jpg
+  pos: "40% 30%"
+  links:
+    - { label: "ORCiD", url: "https://orcid.org/0009-0001-2630-9060" }
+    - { label: "Researchmap", url: "https://researchmap.jp/uemurana" }
+- name: "島田 佳季"
+  name_en: "Yoshiki Shimada"
+  grade: D2
+  note: "本所属はM専攻 菅研"
+  note_en: "Main affiliation: Kan Lab, Department of Mechanical and Intelligent Systems Engineering"
+  theme: "微小流体デバイスで細菌のオリンピック、デバイスで自然環境を模倣"
+  theme_en: "A bacterial Olympics in microfluidic devices, mimicking natural environments with devices"
+  photo: /assets/img/people/93a304644e331fea.jpg
+  pos: "55% 25%"
+  links:
+    - { label: "菅研 Kan Lab", url: "http://www.ms.mi.uec.ac.jp/" }
+- name: "Ayesha Maryam"
+  name_en: "Ayesha Maryam"
+  grade: RS
+  theme: "テーマは考え中"
+  theme_en: "Still thinking about a theme"
+  photo: /assets/img/people/e1a5e5c39fdd6803.jpg
+  pos: "55% 22%"
+- name: "佐藤 敦哉"
+  name_en: "Atsuya Sato"
+  grade: M2
+  theme: "細菌の走熱性、速い凝集"
+  theme_en: "Bacterial thermotaxis, fast aggregation"
+  photo: /assets/img/people/01d3f0bf591131a9.jpg
+  pos: "50% 30%"
+- name: "田淵 里咲登"
+  name_en: "Risato Tabuchi"
+  grade: M2
+  theme: "磁性細菌はかしこく動くのか？"
+  theme_en: "Do magnetotactic bacteria move smartly?"
+  photo: /assets/img/people/55d20a25dab601d9.jpg
+  pos: "45% 50%"
+- name: "常田 皐月"
+  name_en: "Satsuki Tsuneta"
+  grade: M2
+  theme: "らせん細菌の柔軟性解析"
+  theme_en: "Analyzing the flexibility of spiral bacteria"
+  photo: /assets/img/people/81adb5e1bca6b882.jpg
+  pos: "50% 45%"
+- name: "長坂 もゆ"
+  name_en: "Moyu Nagasaka"
+  grade: M2
+  theme: "カンピロバクターのべん毛はなぜ短い？"
+  theme_en: "Why are Campylobacter flagella so short?"
+  photo: /assets/img/people/2c774cf337a613c0.jpg
+  pos: "25% 40%"
+- name: "相原 優吾"
+  name_en: "Yugo Aihara"
+  grade: M1
+  theme: "滑走細菌は遠くに行けるのか？"
+  theme_en: "Can gliding bacteria go far?"
+  photo: /assets/img/people/fc56c2e539eea709.jpg
+  pos: "37% 55%"
+- name: "石鉢 功樹"
+  name_en: "Koki Ishibachi"
+  grade: M1
+  theme: "スピルリナのらせん形態に意味はあるのか？"
+  theme_en: "Does Spirulina's helical shape mean anything?"
+  photo: /assets/img/people/c30ea42f440cbd7d.png
+  pos: "25% 35%"
+- name: "白澤 航成"
+  name_en: "Kosei Shirasawa"
+  grade: M1
+  theme: "トロイの木馬系細菌をめっちゃ見る"
+  theme_en: "Watching \"Trojan horse\" bacteria a lot"
+  photo: /assets/img/people/ef4c4eaa1c3e4f40.jpg
+  pos: "30% 40%"
+- name: "内海 志麻"
+  name_en: "Shima Utsumi"
+  grade: B4
+  theme: "培養難しそうな細菌をめっちゃ見る"
+  theme_en: "Watching bacteria that look hard to culture a lot"
+  photo: /assets/img/people/056db2bdcd8c0e06.jpg
+  pos: "40% 45%"
+- name: "岸川 倫士"
+  name_en: "Rinji Kishikawa"
+  grade: B4
+  theme: "細菌が食べられるところを見る"
+  theme_en: "Watching bacteria get eaten"
+  photo: /assets/img/people/e13a9f8c498bc20b.jpg
+  pos: "50% 45%"
+- name: "田中 正弘"
+  name_en: "Masahiro Tanaka"
+  grade: B4
+  theme: "細菌が浮くところを見る"
+  theme_en: "Watching bacteria float"
+  photo: /assets/img/people/c2c57ec1af5dbac7.jpg
+  pos: "62% 70%"
+- name: "藤村 修己"
+  name_en: "Motoki Fujimura"
+  grade: B4
+  theme: "狭小空間の細菌をめっちゃ見る"
+  theme_en: "Watching bacteria in confined spaces a lot"
+  photo: /assets/img/people/e4fc3bdae710711c.jpg
+  pos: "80% 40%"

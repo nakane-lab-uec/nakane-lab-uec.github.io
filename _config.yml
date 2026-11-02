@@ -1,0 +1,35 @@
+# ===== サイト全体の設定 =====
+title: "中根研究室 Nakane Lab@UEC"
+description: "電気通信大学 基盤理工学専攻 中根大介の研究室。光学顕微鏡を工夫して、小さな生命体（細菌）がなぜ・どのように動くのかを研究しています。"
+email: "dice-k@uec.ac.jp"
+tel: "042-443-5146"
+
+# 独自ドメインを使う場合は url を書き換えてください（例: https://nakane-lab.jp）
+url: "https://nakane-lab-uec.github.io"
+baseurl: ""
+
+lang: ja
+timezone: Asia/Tokyo
+future: true   # 日付が未来の記事もすぐ表示する
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true   # 改行をそのまま改行として表示
+
+# お知らせ記事の URL: /news/<日付>-<ファイル名の最後の部分>/（例: /news/20261110-183000/）
+permalink: /news/:year:month:day-:title/
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: page }
+
+exclude:
+  - README.md
+  - "更新マニュアル.md"
+  - tools/
+  - templates/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock

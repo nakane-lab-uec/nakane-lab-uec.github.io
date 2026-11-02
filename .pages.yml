@@ -1,0 +1,272 @@
+# Pages CMS（https://app.pagescms.org）の設定ファイル
+# ブラウザの入力フォームから、お知らせ・論文・リンク・メンバーなどを編集できるようにします。
+
+media:
+  - name: news
+    label: お知らせの写真
+    input: assets/img/news
+    output: /assets/img/news
+    categories: [image]
+  - name: people
+    label: メンバーの写真
+    input: assets/img/people
+    output: /assets/img/people
+    categories: [image]
+
+content:
+  # ---------- お知らせ ----------
+  - name: news
+    label: お知らせ (News)
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{hour}{minute}{second}.html"
+    view:
+      fields: [title, date]
+      primary: title
+      default: { sort: date, order: desc }
+    fields:
+      - { name: title, label: タイトル, type: string, required: true }
+      - { name: title_en, label: "Title (English)", type: string, description: "空欄なら英語モードでも日本語のタイトルを表示します" }
+      - name: date
+        label: 日付
+        type: date
+        options: { time: true, format: "yyyy-MM-dd HH:mm:ss xx" }
+      - { name: image, label: 一覧に出すサムネイル写真, type: image, options: { media: news } }
+      - { name: body, label: 本文, type: rich-text, options: { format: html, media: news } }
+      - { name: body_en, label: "本文 (English)", type: rich-text, description: "空欄なら英語モードでも日本語の本文を表示します", options: { format: html, media: news } }
+      - { name: youtube, label: "YouTube 動画の ID（URL の v= の後ろ11文字）", type: string, list: true }
+      - { name: description, label: 検索エンジン向けの短い説明（省略可）, type: text }
+
+  # ---------- 論文 ----------
+  - name: papers
+    label: 論文リスト (Papers)
+    type: file
+    path: _data/papers.yml
+    format: yaml
+    list: true
+    fields:
+      - name: category
+        label: 種類
+        type: select
+        options: { values: [{ name: original, label: 原著論文 }, { name: review, label: 総説・解説・書籍 }] }
+      - { name: year, label: 年, type: number }
+      - { name: authors, label: 著者, type: string, description: "Nakane D は自動で太字。研究室の学生は <u>Uemura NA</u> のように下線" }
+      - { name: title, label: タイトル, type: string }
+      - { name: journal, label: "雑誌名・巻・ページ", type: string }
+      - { name: url, label: "リンク（DOI など）", type: string }
+      - { name: preprint, label: プレプリント, type: boolean }
+
+  - name: papers_featured
+    label: 代表的な論文の解説
+    type: file
+    path: _data/papers_featured.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: year, label: 年, type: number }
+      - { name: authors, label: 著者, type: string }
+      - { name: title, label: タイトル, type: string }
+      - { name: journal, label: "雑誌名・巻・ページ", type: string }
+      - { name: url, label: リンク, type: string }
+      - { name: comment, label: 解説, type: rich-text, options: { format: html } }
+      - { name: comment_en, label: "解説 (English)", type: rich-text, options: { format: html } }
+
+  # ---------- リンク ----------
+  - name: links
+    label: リンク・共同研究先 (Links)
+    type: file
+    path: _data/links.yml
+    format: yaml
+    list: true
+    fields:
+      - name: section
+        label: 区分
+        type: select
+        options: { values: [{ name: campus, label: 学内 }, { name: external, label: 学外・共同研究先 }, { name: project, label: 研究プロジェクト }] }
+      - { name: period, label: "期間（例: 2015年~）", type: string }
+      - { name: name, label: 名前, type: string }
+      - { name: name_en, label: "Name (English)", type: string }
+      - { name: url, label: URL, type: string }
+      - { name: note, label: ひとこと, type: text, description: "[文字](URL) でリンクを書けます" }
+      - { name: note_en, label: "Note (English)", type: text }
+
+  - name: outreach
+    label: 研究室の発信（リンクページ上部）
+    type: file
+    path: _data/outreach.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: name, label: 名前, type: string }
+      - { name: name_en, label: "Name (English)", type: string }
+      - { name: url, label: URL, type: string }
+
+  # ---------- メンバー ----------
+  - name: members
+    label: メンバー (Members)
+    type: file
+    path: _data/members.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: name, label: 氏名, type: string }
+      - { name: name_en, label: "Name (English)", type: string }
+      - name: grade
+        label: 学年・身分
+        type: select
+        options: { values: [D3, D2, D1, M2, M1, B4, B3, { name: RS, label: 研究生 }, { name: PD, label: 博士研究員 }, { name: TS, label: 技術補佐員 }, { name: VS, label: 訪問研究員 }] }
+      - { name: note, label: "補足（例: 学振DC1）", type: string }
+      - { name: note_en, label: "Note (English)", type: string }
+      - { name: theme, label: 研究テーマ（ひとこと）, type: string }
+      - { name: theme_en, label: "Theme (English)", type: string }
+      - { name: photo, label: 写真, type: image, options: { media: people } }
+      - { name: pos, label: "写真の切り抜き位置（横% 縦%、例: 50% 30%）", type: string }
+      - name: links
+        label: リンク
+        type: object
+        list: true
+        fields:
+          - { name: label, label: 表示名, type: string }
+          - { name: url, label: URL, type: string }
+
+  - name: pi
+    label: 教員（中根）
+    type: file
+    path: _data/pi.yml
+    format: yaml
+    fields:
+      - { name: name, label: 氏名, type: string }
+      - { name: name_en, label: "Name (English)", type: string }
+      - { name: title, label: 職名, type: string }
+      - { name: title_en, label: "Title (English)", type: string }
+      - { name: photo, label: 写真, type: image, options: { media: people } }
+      - { name: pos, label: 写真の切り抜き位置, type: string }
+      - { name: message, label: ひとこと, type: string }
+      - { name: message_en, label: "Message (English)", type: string }
+      - { name: field, label: 分野, type: string }
+      - { name: field_en, label: "Field (English)", type: string }
+      - { name: email, label: メール, type: string }
+      - { name: tel, label: 電話, type: string }
+      - { name: bio, label: 略歴・担当授業, type: rich-text, options: { format: html } }
+      - { name: bio_en, label: "Biography (English)", type: rich-text, options: { format: html } }
+
+  - name: theses
+    label: 学生の研究テーマ（卒研・修論）
+    type: file
+    path: _data/theses.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: year, label: 年度, type: number }
+      - name: degree
+        label: 種類
+        type: select
+        options: { values: [卒研, 修士, 博士] }
+      - { name: name, label: 氏名, type: string }
+      - { name: name_en, label: "Name (English)", type: string }
+      - { name: title, label: テーマ, type: string }
+      - { name: title_en, label: "Title (English)", type: string }
+      - { name: paren, label: "（ ）書きにする", type: boolean }
+
+  - name: group_photos
+    label: 集合写真
+    type: file
+    path: _data/group_photos.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: caption, label: 説明, type: string }
+      - { name: caption_en, label: "Caption (English)", type: string }
+      - { name: images, label: 写真, type: image, options: { media: people, multiple: { max: 6 } } }
+
+  # ---------- 研究ページの一覧 ----------
+  - name: awards
+    label: 受賞 (Awards)
+    type: file
+    path: _data/awards.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: date, label: "年月（例: 2026-10）", type: string, pattern: "^\\d{4}-\\d{2}$" }
+      - { name: award, label: 受賞内容, type: string }
+      - { name: award_en, label: "Award (English)", type: string }
+
+  - name: funding
+    label: 研究費 (Funding)
+    type: file
+    path: _data/funding.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: name, label: 研究費, type: string }
+      - { name: name_en, label: "Funding (English)", type: string }
+
+  - name: videos
+    label: トップページの動画
+    type: file
+    path: _data/videos.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: id, label: "YouTube の ID（URL の v= の後ろ11文字）", type: string }
+      - { name: ja, label: タイトル, type: string }
+      - { name: en, label: "Title (English)", type: string }
+      - { name: dja, label: 説明, type: string }
+      - { name: den, label: "Description (English)", type: string }
+
+  # ---------- 文章ページ ----------
+  - name: page_research
+    label: 研究ページの本文
+    type: file
+    path: research/index.html
+    format: yaml-frontmatter
+    fields:
+      - { name: title, label: タイトル, type: string }
+      - { name: title_en, label: "Title (English)", type: string }
+      - { name: label, type: string, hidden: true }
+      - { name: layout, type: string, hidden: true }
+      - { name: description, label: 説明, type: text }
+      - { name: societies, label: 所属学会, type: string }
+      - { name: societies_en, label: "Societies (English)", type: string }
+      - { name: body, label: 本文, type: rich-text, options: { format: html } }
+      - { name: body_en, label: "本文 (English)", type: rich-text, options: { format: html } }
+
+  - name: page_access
+    label: アクセスページの本文
+    type: file
+    path: access/index.html
+    format: yaml-frontmatter
+    fields:
+      - { name: title, label: タイトル, type: string }
+      - { name: title_en, label: "Title (English)", type: string }
+      - { name: label, type: string, hidden: true }
+      - { name: description, label: 説明, type: text }
+      - { name: body, label: 本文, type: rich-text, options: { format: html } }
+      - { name: body_en, label: "本文 (English)", type: rich-text, options: { format: html } }
+
+  - name: page_papers
+    label: 論文ページの前書き
+    type: file
+    path: papers/index.html
+    format: yaml-frontmatter
+    fields:
+      - { name: title, label: タイトル, type: string }
+      - { name: title_en, label: "Title (English)", type: string }
+      - { name: label, type: string, hidden: true }
+      - { name: layout, type: string, hidden: true }
+      - { name: description, label: 説明, type: text }
+      - { name: body, label: 本文, type: rich-text, options: { format: html } }
+      - { name: body_en, label: "本文 (English)", type: rich-text, options: { format: html } }
+
+  # ---------- サイト設定 ----------
+  - name: social
+    label: フッターの外部リンク
+    type: file
+    path: _data/social.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: label, label: 表示名, type: string }
+      - { name: label_en, label: "Label (English)", type: string }
+      - { name: url, label: URL, type: string }

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="page-head colonies">
+    <div class="wrap narrow">
+      <a class="back" href="{{ '/news/' | relative_url }}">← <span lang="ja">お知らせ一覧</span><span lang="en">All news</span></a>
+      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+      <h1 class="post-title"><span lang="ja">{{ page.title }}</span><span lang="en">{{ page.title_en | default: page.title }}</span></h1>
+    </div>
+  </header>
+  <div class="page-body">
+    <div class="wrap narrow">
+      <div class="prose post-body">
+{% assign ext = page.path | split: "." | last %}{% if ext == "md" %}{% assign body_en = page.body_en | markdownify %}{% else %}{% assign body_en = page.body_en %}{% endif %}
+{% include bi-body.html ja=content en=body_en %}
+{% for v in page.youtube %}{% capture tpath %}/assets/img/videos/{{ v }}.jpg{% endcapture %}{% assign local = site.static_files | where: "path", tpath | first %}<div class="post-video"><a class="yt" href="https://www.youtube.com/watch?v={{ v }}" data-id="{{ v }}" target="_blank" rel="noopener" aria-label="YouTube"><img src="{% if local %}{{ tpath | relative_url }}{% else %}https://i.ytimg.com/vi/{{ v }}/hqdefault.jpg{% endif %}" alt="" loading="lazy"><span class="pbtn" aria-hidden="true"></span></a><p class="cap"><a href="https://www.youtube.com/watch?v={{ v }}" target="_blank" rel="noopener"><span lang="ja">YouTube で開く</span><span lang="en">Open on YouTube</span> ↗</a></p></div>{% endfor %}
+      </div>
+      <nav class="post-nav" aria-label="Other posts">
+        {% if page.previous %}<a class="prev" href="{{ page.previous.url | relative_url }}"><small>← <span lang="ja">前の記事</span><span lang="en">Older</span></small><span lang="ja">{{ page.previous.title }}</span><span lang="en">{{ page.previous.title_en | default: page.previous.title }}</span></a>{% else %}<span></span>{% endif %}
+        {% if page.next %}<a class="next" href="{{ page.next.url | relative_url }}"><small><span lang="ja">次の記事</span><span lang="en">Newer</span> →</small><span lang="ja">{{ page.next.title }}</span><span lang="en">{{ page.next.title_en | default: page.next.title }}</span></a>{% endif %}
+      </nav>
+    </div>
+  </div>
+</article>

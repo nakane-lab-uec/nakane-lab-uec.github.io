@@ -1,0 +1,207 @@
+---
+layout: default
+title: 中根研究室 Nakane Lab@UEC
+---
+{% assign pi = site.data.pi %}
+{% assign members = site.data.members %}
+
+<!-- HERO: microbes swim in and form the lab name -->
+<header class="hero colonies">
+  <div class="wrap">
+    <p class="kicker">THE UNIVERSITY OF ELECTRO-COMMUNICATIONS</p>
+    <h1 class="sr">中根研究室 Nakane Lab</h1>
+    <canvas id="wordmark" data-text="Nakane Lab" aria-hidden="true"></canvas>
+    <button class="replay" id="replay" type="button"><span lang="ja">▶ もう一度再生</span><span lang="en">▶ Play again</span></button>
+    <ul class="legend" aria-label="Which microbes build the logo">
+      <li data-g="na"><b style="--c:#3BA57A">Na</b><span lang="ja">光に集まる微生物（シアノバクテリア）</span><span lang="en">Microbes gathering toward light (cyanobacteria)</span></li>
+      <li data-g="ka"><b style="--c:#2F6FE0">ka</b><span lang="ja">細い通路を通る微生物（ドリル細菌）</span><span lang="en">Microbes passing through narrow channels (drill bacteria)</span></li>
+      <li data-g="ne"><b style="--c:#E2557A">ne</b><span lang="ja">流れに逆らう微生物（IV型線毛細菌・マイコプラズマ）</span><span lang="en">Microbes swimming against the flow (type IV pili bacteria, Mycoplasma)</span></li>
+      <li data-g="lab"><b style="--c:#F0A500">Lab</b><span lang="ja">いろいろな動きの微生物</span><span lang="en">Microbes with all kinds of motion</span></li>
+    </ul>
+    <div class="slides-tag">
+      <div class="glass"><span lang="ja">小さな生き物は、</span><span lang="en">How and why</span></div>
+      <div class="glass"><span lang="ja"><span class="em">なぜ動く</span>のか？</span><span lang="en">does <span class="em">small life move?</span></span></div>
+    </div>
+    <div><span class="pillnote"><span lang="ja">微生物生態 × 生物物理 × 光学顕微鏡</span><span lang="en">Microbial ecology × Biophysics × Microscopy</span></span></div>
+    <div class="mascot" aria-hidden="true">
+      <svg viewBox="0 0 60 60"><rect x="8" y="18" width="44" height="26" rx="13" fill="#FFFFFF" stroke="#1D3A34" stroke-width="2"/><circle cx="38" cy="29" r="2.4" fill="#1D3A34"/><circle cx="45" cy="29" r="2.4" fill="#1D3A34"/><path d="M39 36 q3 2 6 0" fill="none" stroke="#1D3A34" stroke-width="1.8" stroke-linecap="round"/><path d="M8 31 q-3 -4 -6 0 t-0 4" fill="none" stroke="#1D3A34" stroke-width="1.6" stroke-linecap="round"/><circle cx="20" cy="26" r="3" fill="#E2557A" opacity=".5"/></svg>
+      SCROLL ↓
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section class="band plate" id="about">
+  <div class="wrap about">
+    <div class="reveal">
+      <span class="label"><span>ABOUT</span></span>
+      <h2><span lang="ja">中根研究室について</span><span lang="en">About the lab</span></h2>
+      <p class="big"><span lang="ja"><span class="nb">光学顕微鏡をちょっと工夫して、</span><span class="nb"><span class="em">小さな生命体</span>を見てみませんか？</span></span><span lang="en">Tweak a light microscope a little, and <span class="em">watch tiny life move.</span></span></p>
+      <p class="lead"><span lang="ja">中根研は2020年10月に立ち上がった生命科学系の研究室です。細菌は、べん毛で泳ぎ、表面を滑り、流れに逆らって進みます。なぜ・どのように動くのか、まだわかっていないことがたくさんあります。光学顕微鏡と微小流体デバイスを使って、細菌1個体や運動装置1ユニットの「動き」と「かたち」を見ることで、誰も見たことのない微生物の世界を覗いています。</span><span lang="en">Nakane Lab, founded in October 2020, studies how and why bacteria move. Bacteria swim with flagella, glide over surfaces and push upstream against flow, and much of how they do it is still unknown. With customized optical microscopes and microfluidic devices, we image the motion and shape of single cells and single motility machines.</span></p>
+      <p style="margin-top:22px"><a class="btn" href="{{ '/research/' | relative_url }}"><span lang="ja">研究と研究室のようす</span><span lang="en">Research &amp; the lab</span> →</a></p>
+    </div>
+    <div class="dish reveal" aria-hidden="true">
+      <svg viewBox="0 0 200 200">
+        <rect class="f1" x="40" y="60" width="54" height="22" rx="11"/><rect class="s" x="40" y="60" width="54" height="22" rx="11"/><path class="s" d="M40 71 q-8 -8 -16 0 t-14 0"/>
+        <circle class="f2" cx="132" cy="62" r="12"/><circle class="s" cx="132" cy="62" r="12"/><circle class="s" cx="150" cy="74" r="9"/>
+        <path class="s" d="M96 128 q8 -14 16 0 t16 0 t16 0"/>
+        <rect class="f3" x="52" y="122" width="34" height="16" rx="8" transform="rotate(-25 69 130)"/><rect class="s" x="52" y="122" width="34" height="16" rx="8" transform="rotate(-25 69 130)"/>
+        <circle class="s" cx="120" cy="104" r="5"/><circle class="s" cx="132" cy="108" r="5"/><circle class="s" cx="126" cy="96" r="5"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section class="band" id="research">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label"><span>RESEARCH</span></span>
+      <h2><span lang="ja">研究テーマ</span><span lang="en">Research</span></h2>
+      <p class="lead"><span lang="ja">泳ぐ、滑る、流れに逆らう、光をめざす。いろいろな動き方を調べています。</span><span lang="en">Swim, glide, go upstream, head for light. We study many ways to move.</span></p>
+    </div>
+    <div class="themes">
+      <a class="theme reveal" href="{{ '/papers/' | relative_url }}">
+        <div class="ic"><svg viewBox="0 0 64 64" aria-hidden="true"><rect class="f" x="22" y="24" width="30" height="16" rx="8"/><rect class="s" x="22" y="24" width="30" height="16" rx="8"/><path class="s" d="M22 32 q-4 -8 -8 0 t-8 0"/><path class="s" d="M28 24 q4 -8 10 -2 t10 4"/></svg></div>
+        <div><span class="tag">FLAGELLA</span><h3><span lang="ja">べん毛を巻きつけて、ドリルのように進む</span><span lang="en">Wrapping flagella to drill forward</span></h3><p><span lang="ja">1マイクロメートル四方の狭い通路も突破する、細菌のドリル運動。</span><span lang="en">How bacteria break through one-micrometer passages by flagellar wrapping.</span></p></div>
+        <span class="dot" aria-hidden="true"></span>
+      </a>
+      <a class="theme reveal" href="{{ '/papers/' | relative_url }}">
+        <div class="ic"><svg viewBox="0 0 64 64" aria-hidden="true"><path class="s" d="M6 46 H58"/><rect class="f" x="14" y="28" width="32" height="14" rx="7"/><rect class="s" x="14" y="28" width="32" height="14" rx="7"/><path class="s" d="M50 35 h8 m-4 -4 l4 4 l-4 4"/></svg></div>
+        <div><span class="tag">GLIDING</span><h3><span lang="ja">べん毛なしで、表面を滑る</span><span lang="en">Gliding without flagella</span></h3><p><span lang="ja">フラボバクテリアやマイコプラズマの滑走運動と分子マシン。</span><span lang="en">Gliding machinery of Flavobacteria and Mycoplasma.</span></p></div>
+        <span class="dot" aria-hidden="true"></span>
+      </a>
+      <a class="theme reveal" href="{{ '/papers/' | relative_url }}">
+        <div class="ic"><svg viewBox="0 0 64 64" aria-hidden="true"><path class="s" d="M6 16 H58 M6 48 H58"/><path class="s" d="M54 16 l-4 -3 m4 3 l-4 3 M54 48 l-4 -3 m4 3 l-4 3"/><rect class="f" x="14" y="25" width="24" height="14" rx="7"/><rect class="s" x="14" y="25" width="24" height="14" rx="7"/><path class="s" d="M38 32 q4 -5 8 0 t8 0"/></svg></div>
+        <div><span class="tag">RHEOTAXIS</span><h3><span lang="ja">流れに逆らって、上流へ</span><span lang="en">Swimming upstream</span></h3><p><span lang="ja">温泉の好熱菌やマイコプラズマが示す走流性。</span><span lang="en">Rheotaxis of hot-spring bacteria and Mycoplasma.</span></p></div>
+        <span class="dot" aria-hidden="true"></span>
+      </a>
+      <a class="theme reveal" href="{{ '/papers/' | relative_url }}">
+        <div class="ic"><svg viewBox="0 0 64 64" aria-hidden="true"><circle class="f" cx="22" cy="32" r="10"/><circle class="s" cx="22" cy="32" r="10"/><path class="s" d="M32 32 h8 M30 26 l8 -6 M30 38 l8 6"/><circle class="s" cx="52" cy="32" r="5"/><path class="s" d="M52 20 v4 M52 40 v4"/></svg></div>
+        <div><span class="tag">PHOTOTAXIS</span><h3><span lang="ja">光へ向かう、シアノバクテリア</span><span lang="en">Cyanobacteria moving toward light</span></h3><p><span lang="ja">IV型線毛を伸び縮みさせて、光の方向へ舵を取るしくみ。</span><span lang="en">How type IV pili let cyanobacteria steer toward light.</span></p></div>
+        <span class="dot" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- MEMBERS (swipe) -->
+<section class="band white" id="members">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label"><span>MEMBERS</span></span>
+      <h2><span lang="ja">メンバー</span><span lang="en">Members</span></h2>
+    </div>
+    <div class="cast reveal">
+      <button class="cast-ctrl" id="cast-prev" type="button" aria-label="Previous">‹</button>
+      <div class="stage" id="stage" tabindex="0" aria-label="Members" aria-roledescription="carousel">
+        <article class="slide" aria-roledescription="slide"><div class="card">
+          <div class="face photo"><img src="{{ pi.photo | relative_url }}" alt="{{ pi.name }}" style="object-position:{{ pi.pos }}" loading="lazy"></div>
+          <div class="bio">
+            <div class="role">PRINCIPAL INVESTIGATOR</div>
+            <div class="name"><span lang="ja">{{ pi.name }}</span><span lang="en">{{ pi.name_en }}</span></div>
+            <div class="yomi"><span lang="ja">{{ pi.title }}</span><span lang="en">{{ pi.title_en }}</span></div>
+            <p class="bubble"><span lang="ja">{{ pi.message }}</span><span lang="en">{{ pi.message_en }}</span></p>
+            <dl><dt>FIELD</dt><dd><span lang="ja">{{ pi.field }}</span><span lang="en">{{ pi.field_en }}</span></dd></dl>
+          </div>
+        </div></article>
+        {% for m in members %}{% assign g = site.data.grades[m.grade] %}
+        <article class="slide" aria-roledescription="slide"><div class="card">
+          <div class="face photo"><img src="{{ m.photo | relative_url }}" alt="{{ m.name }}" style="object-position:{{ m.pos }}" loading="lazy"></div>
+          <div class="bio">
+            <div class="role">{{ g.en | default: m.grade | upcase }}</div>
+            <div class="name"><span lang="ja">{{ m.name }}</span><span lang="en">{{ m.name_en | default: m.name }}</span></div>
+            {% if m.name_en != "" and m.name_en != m.name %}<div class="yomi" lang="ja">{{ m.name_en }}</div>{% endif %}
+            <p class="bubble"><span lang="ja">{{ m.theme }}</span><span lang="en">{{ m.theme_en | default: m.theme }}</span></p>
+            <dl><dt>GRADE</dt><dd><span lang="ja">{{ g.ja | default: m.grade }}{% if m.note %}（{{ m.note }}）{% endif %}</span><span lang="en">{{ g.en | default: m.grade }}{% if m.note %} ({{ m.note_en | default: m.note }}){% endif %}</span></dd></dl>
+          </div>
+        </div></article>
+        {% endfor %}
+        <article class="slide" aria-roledescription="slide"><div class="card">
+          <div class="face"><svg viewBox="0 0 100 100" aria-hidden="true"><rect x="18" y="34" width="64" height="32" rx="16" fill="#fff"/><rect class="s" x="18" y="34" width="64" height="32" rx="16" stroke-dasharray="6 6"/></svg><span class="ini">＋</span></div>
+          <div class="bio">
+            <div class="role">YOU NEXT</div>
+            <div class="name"><span lang="ja">次は、あなた？</span><span lang="en">Could it be you?</span></div>
+            <p class="bubble"><span lang="ja">顕微鏡の向こうの世界、一緒にのぞいてみませんか。</span><span lang="en">Want to look through the microscope with us?</span></p>
+            <a class="btn" href="#join"><span lang="ja">学生募集を見る</span><span lang="en">How to join</span> ›</a>
+          </div>
+        </div></article>
+      </div>
+      <button class="cast-ctrl" id="cast-next" type="button" aria-label="Next">›</button>
+    </div>
+    <div class="cast-foot">
+      <div class="thumbs">
+        <button type="button" aria-label="{{ pi.name }}"><img src="{{ pi.photo | relative_url }}" alt="" style="object-position:{{ pi.pos }}" loading="lazy"></button>
+        {% for m in members %}<button type="button" aria-label="{{ m.name }}"><img src="{{ m.photo | relative_url }}" alt="" style="object-position:{{ m.pos }}" loading="lazy"></button>{% endfor %}
+        <button type="button" aria-label="You">＋</button>
+      </div>
+    </div>
+    <p class="swipe-hint"><span id="cast-count">01 / {{ members.size | plus: 2 }}</span> · <span lang="ja">← スワイプで切り替え →</span><span lang="en">← Swipe to switch →</span></p>
+    <div class="center"><a class="btn" href="{{ '/people/' | relative_url }}"><span lang="ja">メンバー一覧・集合写真</span><span lang="en">All members &amp; group photos</span> →</a></div>
+  </div>
+</section>
+
+<!-- MOVIES -->
+<section class="band" id="movies">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label"><span>MOVIES</span></span>
+      <h2><span lang="ja">顕微鏡でのぞいた世界</span><span lang="en">Under the microscope</span></h2>
+      <p class="lead"><span lang="ja">細菌の動きを YouTube で公開しています。サムネイルを押すとその場で再生します。</span><span lang="en">Microbe movies from our YouTube channel. Tap a thumbnail to play.</span></p>
+    </div>
+    <!-- 動画カードは _data/videos.yml から作られます -->
+    <div class="gallery" id="gallery">
+      {% for v in site.data.videos %}{% capture tpath %}/assets/img/videos/{{ v.id }}.jpg{% endcapture %}{% assign local = site.static_files | where: "path", tpath | first %}
+      <article class="vcard reveal">
+        <a class="yt" href="https://www.youtube.com/watch?v={{ v.id }}" data-id="{{ v.id }}" target="_blank" rel="noopener" aria-label="{{ v.en }}"><img src="{% if local %}{{ tpath | relative_url }}{% else %}https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg{% endif %}" alt="" loading="lazy"><span class="pbtn" aria-hidden="true"></span></a>
+        <h3><span lang="ja">{{ v.ja }}</span><span lang="en">{{ v.en | default: v.ja }}</span></h3>
+        <p><span lang="ja">{{ v.dja }}</span><span lang="en">{{ v.den | default: v.dja }}</span></p>
+        <a class="ytlink" href="https://www.youtube.com/watch?v={{ v.id }}" target="_blank" rel="noopener"><span lang="ja">YouTube で開く</span><span lang="en">Open on YouTube</span> ↗</a>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="center"><a class="btn" data-channel href="https://www.youtube.com/channel/UCpgRsoOOei7fWkbZAa9eUtg"><span class="play" aria-hidden="true"></span><span lang="ja">YouTube チャンネルへ</span><span lang="en">Our YouTube channel</span></a></div>
+  </div>
+</section>
+
+<!-- NEWS + PUBLICATIONS -->
+<section class="band plate" id="news">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label"><span>NEWS</span></span>
+      <h2><span lang="ja">お知らせ</span><span lang="en">News</span></h2>
+    </div>
+    <div class="news">
+      {% for post in site.posts limit:8 %}{% include news-card.html post=post %}{% endfor %}
+    </div>
+    <div class="center"><a class="btn" href="{{ '/news/' | relative_url }}"><span lang="ja">すべてのお知らせ（{{ site.posts.size }}件）</span><span lang="en">All news ({{ site.posts.size }})</span> →</a></div>
+
+    <div class="head reveal" id="publications" style="margin-top:72px">
+      <span class="label"><span>PUBLICATIONS</span></span>
+      <h2><span lang="ja">最近の論文</span><span lang="en">Recent papers</span></h2>
+    </div>
+    {% include paper-list.html category="original" limit=5 %}
+    <div class="center"><a class="btn" href="{{ '/papers/' | relative_url }}"><span lang="ja">論文リストと解説</span><span lang="en">All papers</span> →</a></div>
+  </div>
+</section>
+
+<!-- JOIN -->
+<section class="band" id="join">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="label"><span>JOIN US</span></span>
+      <h2><span lang="ja">学生募集</span><span lang="en">Join the lab</span></h2>
+    </div>
+    <div class="join">
+      <div class="card first reveal">
+        <h3><span lang="ja">一緒に、動きを見に行こう。</span><span lang="en">Come watch life move with us.</span></h3>
+        <p><span lang="ja">一緒に研究を進めてくれる新しいメンバーを募集しています。見学希望の方はお気軽にメールください。オンラインでの面談も可能です。</span><span lang="en">We are looking for new members. Please feel free to email us to visit the lab; online meetings are also possible.</span></p>
+        <a class="btn" href="mailto:{{ site.email }}"><span lang="ja">メールで連絡する</span><span lang="en">Email us</span></a>
+        <p style="margin:18px 0 0"><a class="btn" href="https://www.uec.ac.jp/education/graduate/event/tour.html" rel="noopener"><span lang="ja">大学院入試情報</span><span lang="en">Graduate admissions</span> ↗</a></p>
+      </div>
+      <div class="card reveal"><h3><span lang="ja">他大学からも歓迎</span><span lang="en">Other universities welcome</span></h3><p><span lang="ja">他大学の学生からの相談も歓迎します。</span><span lang="en">We welcome inquiries from students at other universities.</span></p></div>
+      <div class="card reveal"><h3><span lang="ja">大学院入試の英語は外部試験で</span><span lang="en">Graduate entrance exam: English via TOEIC / TOEFL</span></h3><p><span lang="ja">大学院入試の英語は、TOEIC / TOEFL のスコアから換算されます。出願時にスコアシートの提出が必要です。</span><span lang="en">In the graduate school entrance exam, English is evaluated from your TOEIC / TOEFL score. Submit the score sheet with your application.</span></p></div>
+      <div class="card reveal"><h3><span lang="ja">小中高生のみなさんへ</span><span lang="en">For school students</span></h3><p><span lang="ja">電通大では、高等学校を対象とした<a href="https://sites.google.com/view/uec-arc/%E5%87%BA%E5%BC%B5%E8%AC%9B%E7%BE%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" rel="noopener">出張講義</a>を実施しています。中根は、日本生物物理学会の<a href="https://www.biophys.jp/org/org08_list.html" rel="noopener">小中高校への講師派遣サポート事業</a>の講師もしています。中高生向けの<a href="https://yumenavi.info/portal.aspx?CLGAKOCD=033840&amp;p=s033840051" rel="noopener">夢ナビ mini講義</a>もどうぞ。</span><span lang="en">UEC offers <a href="https://sites.google.com/view/uec-arc/%E5%87%BA%E5%BC%B5%E8%AC%9B%E7%BE%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" rel="noopener">visiting lectures</a> for high schools. Nakane is also a lecturer in the Biophysical Society of Japan's <a href="https://www.biophys.jp/org/org08_list.html" rel="noopener">program that sends lecturers to elementary, junior high and high schools</a>. See also our <a href="https://yumenavi.info/portal.aspx?CLGAKOCD=033840&amp;p=s033840051" rel="noopener">mini lecture for high-school students</a> (in Japanese).</span></p></div>
+    </div>
+  </div>
+</section>

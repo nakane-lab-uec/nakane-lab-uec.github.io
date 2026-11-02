@@ -1,0 +1,12 @@
+# 学年コードと表示名（members.yml の grade で使う）
+D3: { ja: "博士 3年生", en: "Ph.D. student (D3)" }
+D2: { ja: "博士 2年生", en: "Ph.D. student (D2)" }
+D1: { ja: "博士 1年生", en: "Ph.D. student (D1)" }
+M2: { ja: "修士 2年生", en: "Master's student (M2)" }
+M1: { ja: "修士 1年生", en: "Master's student (M1)" }
+B4: { ja: "学部 4年生", en: "Undergraduate (B4)" }
+B3: { ja: "学部 3年生", en: "Undergraduate (B3)" }
+RS: { ja: "研究生", en: "Research student" }
+PD: { ja: "博士研究員", en: "Postdoctoral researcher" }
+TS: { ja: "技術補佐員", en: "Technical staff" }
+VS: { ja: "訪問研究員", en: "Visiting researcher" }

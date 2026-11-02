@@ -1,0 +1,7 @@
+{% comment %} 論文を年ごとに新しい順で表示。include.category = original / review、include.limit = 表示件数（省略可） {% endcomment %}
+{% assign list = site.data.papers | where: "category", include.category %}
+{% assign groups = list | group_by: "year" | sort: "name" | reverse %}
+{% assign shown = 0 %}{% assign limit = include.limit | default: 9999 %}
+<ol class="pubs">
+{% for g in groups %}{% for p in g.items %}{% if shown < limit %}{% include paper.html p=p %}{% assign shown = shown | plus: 1 %}{% endif %}{% endfor %}{% endfor %}
+</ol>

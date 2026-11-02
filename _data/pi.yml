@@ -1,0 +1,18 @@
+# 教員（中根）の情報
+name: "中根 大介"
+name_en: "Daisuke Nakane"
+title: "准教授"
+title_en: "Associate Professor"
+photo: /assets/img/people/3a4a96923c0536f8.jpg
+pos: "48% 35%"
+message: "細菌がどう動くのか、そしてなぜ動くのか。それが知りたいんです。"
+message_en: "How bacteria move, and why. That is what I want to know."
+field: "細菌運動・光学顕微鏡・環境微生物"
+field_en: "Bacterial motility, microscopy, environmental microbes"
+email: "dice-k@uec.ac.jp"
+tel: "042-443-5146 (+81-42-443-5146)"
+# 略歴・担当授業（HTML）
+bio: |-
+  <h3>略歴</h3><p>大阪府出身<br>2010&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;大阪市立大学 大学院理学研究科修了 博士（理学）&nbsp; [宮田真人 研究室]<br>2010-13&nbsp; &nbsp; &nbsp; 学術振興会特別研究員（PD)&nbsp; &nbsp;[長崎大学 中山浩次 研究室]<br>2013-20&nbsp; &nbsp; &nbsp; 学習院大学 理学部 助教&nbsp; [西坂崇之 研究室]<br>2020-23&nbsp; &nbsp; &nbsp; 電気通信大学 基盤理工学専攻 助教<br>2023-現在&nbsp; &nbsp;電気通信大学 基盤理工学専攻 准教授<br><br></p><h4>担当授業 2026年度</h4><p>[電通大]&nbsp;<br>生物化学（3年前期）<br>機器分析学（3年前期）<br>化学生命工学実験第一（3年前期）<br>システム生物学（3年後期）<br>化学生命工学演習第二（3年後期）<br>生命分子科学特論（大学院前期）<br>三大学協働基礎ゼミ（前期集中）</p><p>[学習院大]&nbsp;<br>生物物理学２（集中講義）</p>
+bio_en: |-
+  <h3>Biography</h3><p>Born in Osaka Prefecture<br>2010&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ph.D. (Science), Graduate School of Science, Osaka City University&nbsp; [Makoto Miyata Lab]<br>2010-13&nbsp; &nbsp; &nbsp; JSPS Research Fellow (PD)&nbsp; &nbsp;[Nakayama Lab, Nagasaki University]<br>2013-20&nbsp; &nbsp; &nbsp; Assistant Professor, Faculty of Science, Gakushuin University&nbsp; [Takayuki Nishizaka Lab]<br>2020-23&nbsp; &nbsp; &nbsp; Assistant Professor, Department of Engineering Science, The University of Electro-Communications<br>2023-present&nbsp; &nbsp;Associate Professor, Department of Engineering Science, The University of Electro-Communications<br><br></p><h4>Courses taught, 2026 academic year</h4><p>[UEC]&nbsp;<br>Biochemistry (3rd year, spring)<br>Instrumental Analysis (3rd year, spring)<br>Chemistry and Biotechnology Laboratory I (3rd year, spring)<br>Systems Biology (3rd year, fall)<br>Chemistry and Biotechnology Exercises II (3rd year, fall)<br>Advanced Topics in Biomolecular Science (graduate, spring)<br>Three-University Collaborative Basic Seminar (spring, intensive)</p><p>[Gakushuin University]&nbsp;<br>Biophysics 2 (intensive course)</p>

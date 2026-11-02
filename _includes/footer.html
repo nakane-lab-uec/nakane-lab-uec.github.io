@@ -1,0 +1,17 @@
+<footer id="contact">
+  <div class="wrap">
+    <div>
+      <div class="brand"><span lang="ja">中根研究室</span><span lang="en">Nakane Lab</span><small>THE UNIVERSITY OF ELECTRO-COMMUNICATIONS</small></div>
+      <p><span lang="ja">〒182-8585 東京都調布市調布ヶ丘 1-5-1<br>電気通信大学 基盤理工学専攻 西2号館 413室<br>Mail：{{ site.email }}<br>Tel：{{ site.tel }}</span><span lang="en">Room 413, Bldg West 2, Dept. of Engineering Science<br>The University of Electro-Communications<br>1-5-1 Chofugaoka, Chofu, Tokyo 182-8585, Japan<br>Mail: {{ site.email }}</span></p>
+      <div class="ext">
+        {% for l in site.data.social %}<a href="{{ l.url }}" rel="noopener"><span><span lang="ja">{{ l.label }}</span><span lang="en">{{ l.label_en | default: l.label }}</span></span><span aria-hidden="true">↗</span></a>
+        {% endfor %}
+      </div>
+    </div>
+    <nav aria-label="Footer">
+      {% for item in site.data.navigation %}<a href="{{ item.url | relative_url }}">{{ item.en | upcase }}<small><span lang="ja">{{ item.ja }}</span><span lang="en">{{ item.en }}</span></small></a>
+      {% endfor %}
+    </nav>
+    <div class="copy">© 2020–{{ site.time | date: "%Y" }} Nakane Lab, The University of Electro-Communications</div>
+  </div>
+</footer>

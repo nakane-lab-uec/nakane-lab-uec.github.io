@@ -1,0 +1,28 @@
+# トップページ「顕微鏡でのぞいた世界」に並ぶ YouTube 動画（上から順に表示）
+# id は https://www.youtube.com/watch?v=XXXXXXXXXXX の XXXXXXXXXXX の部分
+# サムネイルは assets/img/videos/<id>.jpg があればそれを、なければ YouTube のものを使います
+- id: otT61yjSsm8
+  ja: 細菌の走流性
+  en: Bacterial rheotaxis
+  dja: 水流に逆らって、上流へ向かって進む細菌
+  den: Bacteria moving upstream against the flow
+- id: 0Og4p0xUtzc
+  ja: べん毛を巻きつけて狭い通路を通り抜ける
+  en: Wrapping flagella to tunnel through narrow passages
+  dja: べん毛を体に巻きつけ、ドリルのように狭小空間を突破します
+  den: Bacteria wrap their flagella around the cell body and drill through microscopic passages
+- id: 9K_wBF9q-3w
+  ja: 微小流体デバイスの中を動く昆虫の共生細菌
+  en: Insect symbiotic bacteria in a microfluidic device
+  dja: 昆虫の選別器官をまねた細い通路を、スイスイと動きます
+  den: They move smoothly through narrow channels that mimic the insect's sorting organ
+- id: auhm-uGOPDA
+  ja: 細菌がつくる巨大な渦模様
+  en: Giant swirls made by bacteria
+  dja: たくさんの細菌が集まって動くと、大きな渦ができます
+  den: Collective motion of many bacteria forms large vortices
+- id: T6uv6RpZQ3Q
+  ja: 模擬講義「スマホで微生物を見てみよう」
+  en: Sample lecture "Let's look at microbes with a smartphone"
+  dja: 2022年 電通大オープンキャンパスでの講演（Ⅲ類 模擬講義）
+  den: A talk at the UEC Open Campus 2022 (in Japanese)

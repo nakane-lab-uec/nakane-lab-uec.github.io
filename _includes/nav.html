@@ -1,0 +1,15 @@
+{% assign here = page.url %}
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <div class="bar">
+      <a class="logo" href="{{ '/' | relative_url }}"><span lang="ja">中根研究室</span><span lang="en">Nakane Lab</span><small>UEC</small></a>
+      <div class="links" id="nav-links">
+        {% for item in site.data.navigation %}
+        <a href="{{ item.url | relative_url }}"{% if here contains item.url and item.url != '/' %} aria-current="page"{% endif %}><span lang="ja">{{ item.ja }}</span><span lang="en">{{ item.en }}</span></a>
+        {% endfor %}
+      </div>
+      <button class="lang-btn" id="lang-btn" type="button" aria-label="Switch language">English</button>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>

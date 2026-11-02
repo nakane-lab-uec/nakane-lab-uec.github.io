@@ -1,0 +1,12 @@
+{% comment %}
+  本文の日英切り替え。include.ja = 日本語本文（HTML）、include.en = 英語本文（HTML、空でもよい）
+  英語がまだ無いときは、英語モードでも日本語本文を表示し、その旨を小さく添える。
+{% endcomment %}
+{% assign en = include.en | strip %}
+{% if en != "" %}
+<div lang="ja">{{ include.ja }}</div>
+<div lang="en">{{ include.en }}</div>
+{% else %}
+<p class="no-en" lang="en">This content is available in Japanese only.</p>
+{{ include.ja }}
+{% endif %}

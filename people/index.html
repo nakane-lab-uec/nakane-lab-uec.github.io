@@ -1,0 +1,51 @@
+---
+title: メンバー
+title_en: Members
+label: MEMBERS
+prose: false
+description: 中根研究室のメンバー紹介と集合写真。
+---
+{% assign pi = site.data.pi %}
+<section class="pi-card">
+  <div class="pi-photo"><img src="{{ pi.photo | relative_url }}" alt="{{ pi.name }}" style="object-position:{{ pi.pos }}"></div>
+  <div class="pi-text">
+    <div class="role">PRINCIPAL INVESTIGATOR</div>
+    <h2 class="pi-name"><span lang="ja">{{ pi.name }} <small>{{ pi.name_en }}</small></span><span lang="en">{{ pi.name_en }}</span></h2>
+    <p class="pi-title"><span lang="ja">{{ pi.title }}</span><span lang="en">{{ pi.title_en }}</span> · {{ pi.email }}</p>
+    <div class="prose">{% include bi-body.html ja=pi.bio en=pi.bio_en %}</div>
+  </div>
+</section>
+
+<h2 class="sec-title"><span lang="ja">学生・スタッフ</span><span lang="en">Students &amp; staff</span></h2>
+<div class="people-grid">
+  {% for m in site.data.members %}{% assign g = site.data.grades[m.grade] %}
+  <article class="person">
+    <div class="ph"><img src="{{ m.photo | relative_url }}" alt="{{ m.name }}" style="object-position:{{ m.pos }}" loading="lazy"></div>
+    <div class="grade"><span lang="ja">{{ g.ja | default: m.grade }}</span><span lang="en">{{ g.en | default: m.grade }}</span></div>
+    <h3><span lang="ja">{{ m.name }}{% if m.name_en != "" and m.name_en != m.name %} <small>{{ m.name_en }}</small>{% endif %}</span><span lang="en">{{ m.name_en | default: m.name }}</span></h3>
+    {% if m.note %}<p class="note"><span lang="ja">{{ m.note }}</span><span lang="en">{{ m.note_en | default: m.note }}</span></p>{% endif %}
+    <p class="theme-txt"><span lang="ja">{{ m.theme }}</span><span lang="en">{{ m.theme_en | default: m.theme }}</span></p>
+    {% if m.links %}<p class="plinks">{% for l in m.links %}<a href="{{ l.url }}" rel="noopener">{{ l.label }}</a>{% endfor %}</p>{% endif %}
+  </article>
+  {% endfor %}
+</div>
+
+<h2 class="sec-title"><span lang="ja">学生の研究テーマ</span><span lang="en">Past student projects</span></h2>
+{% assign years = site.data.theses | group_by: "year" | sort: "name" | reverse %}
+<div class="theses">
+  {% for y in years %}
+  <section><h3><span lang="ja">{{ y.name }}年度</span><span lang="en">FY{{ y.name }}</span></h3>
+    <ul>{% for t in y.items %}<li{% if t.paren %} class="paren"{% endif %}><span class="deg"><span lang="ja">{{ t.degree }}</span><span lang="en">{% case t.degree %}{% when "修士" %}Master's{% when "卒研" %}Bachelor's{% when "博士" %}Ph.D.{% else %}{{ t.degree }}{% endcase %}</span></span><span class="who"><span lang="ja">{{ t.name }}</span><span lang="en">{{ t.name_en | default: t.name }}</span></span><span class="what"><span lang="ja">{{ t.title }}</span><span lang="en">{{ t.title_en | default: t.title }}</span></span></li>{% endfor %}</ul>
+  </section>
+  {% endfor %}
+</div>
+
+<h2 class="sec-title"><span lang="ja">集合写真</span><span lang="en">Group photos</span></h2>
+<div class="group-photos">
+  {% for g in site.data.group_photos %}
+  <figure class="gp">
+    <div class="pics">{% for i in g.images %}<img src="{{ i | relative_url }}" alt="" loading="lazy">{% endfor %}</div>
+    <figcaption><span lang="ja">{{ g.caption }}</span><span lang="en">{{ g.caption_en | default: g.caption }}</span></figcaption>
+  </figure>
+  {% endfor %}
+</div>

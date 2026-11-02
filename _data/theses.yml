@@ -1,0 +1,101 @@
+# 学生の研究テーマ（卒研・修論など）。year は年度。新しいものはどこに追加しても年度順に並びます。
+# 他研究室所属などで（ ）書きにしたいものは paren: true
+
+- year: 2025
+  degree: 修士
+  name: "横濱 さらら"
+  name_en: "Sarara Yokohama"
+  title: "宿主模倣環境におけるHelicobacter属細菌の運動戦略"
+  title_en: "Motility strategies of Helicobacter species in host-mimicking environments"
+- year: 2025
+  degree: 修士
+  name: "成田 理亮"
+  name_en: "Michiaki Narita"
+  title: "干渉反射顕微鏡による細菌べん毛のラベルフリー動態計測"
+  title_en: "Label-free measurement of bacterial flagellar dynamics by interference reflection microscopy"
+- year: 2025
+  degree: 修士
+  name: "橘川 太一"
+  name_en: "Taichi Kikkawa"
+  title: "高度好熱細菌の形態変化による運動特性への影響"
+  title_en: "Effects of morphological changes on the motility of extremely thermophilic bacteria"
+- year: 2025
+  degree: 修士
+  name: "生沼 学美"
+  name_en: "Manami Oinuma"
+  title: "マイコプラズマ・モービレの走流性の検証"
+  title_en: "Examining rheotaxis in Mycoplasma mobile"
+  paren: true
+- year: 2025
+  degree: 修士
+  name: "小倉 尚樹"
+  name_en: "Naoki Ogura"
+  title: "共生・非共生細菌におけるべん毛フックの硬さ調節"
+  title_en: "Regulation of flagellar hook stiffness in symbiotic and non-symbiotic bacteria"
+  paren: true
+- year: 2025
+  degree: 卒研
+  name: "石鉢 功樹"
+  name_en: "Koki Ishibachi"
+  title: "細胞形態で変わるスピルリナの動きと光応答"
+  title_en: "Cell-morphology-dependent motility and light response of Spirulina"
+- year: 2025
+  degree: 卒研
+  name: "相原 優吾"
+  name_en: "Yugo Aihara"
+  title: "層流チャンバーで可視化する滑走細菌の走化性"
+  title_en: "Visualizing chemotaxis of gliding bacteria with a laminar flow chamber"
+- year: 2024
+  degree: 修士
+  name: "荒木 亘"
+  name_en: "Motomu Araki"
+  title: "層流チャンバーで明らかにする栄養条件依存的な細菌の付着"
+  title_en: "Nutrient-dependent bacterial adhesion revealed with a laminar flow chamber"
+- year: 2024
+  degree: 卒研
+  name: "常田 皐月"
+  name_en: "Satsuki Tsuneta"
+  title: "水流環境下でのスピロプラズマの柔軟性解析"
+  title_en: "Flexibility analysis of Spiroplasma under water flow"
+- year: 2024
+  degree: 卒研
+  name: "佐藤 敦哉"
+  name_en: "Atsuya Sato"
+  title: "好熱性細菌は高温に向かって移動できるのか？"
+  title_en: "Can thermophilic bacteria move toward high temperatures?"
+- year: 2024
+  degree: 卒研
+  name: "田淵 里咲登"
+  name_en: "Risato Tabuchi"
+  title: "磁石を持つ細菌一匹は地磁気に沿って動くのか？"
+  title_en: "Does a single magnet-bearing bacterium move along the geomagnetic field?"
+- year: 2023
+  degree: 修士
+  name: "上村 直輝"
+  name_en: "Naoki Uemura"
+  title: "温泉の水流がナビゲートする表面付着細菌の長旅"
+  title_en: "The long journey of surface-attached bacteria navigated by hot spring water flow"
+- year: 2023
+  degree: 卒研
+  name: "横濱 さらら"
+  name_en: "Sarara Yokohama"
+  title: "細く狭い環境におけるピロリ菌のユニークな遊泳様式"
+  title_en: "A unique swimming mode of Helicobacter pylori in thin, narrow environments"
+- year: 2022
+  degree: 卒研
+  name: "荒木 亘"
+  name_en: "Motomu Araki"
+  title: "細菌ドリル運動はオールラウンダーか？"
+  title_en: "Is bacterial drill-like motility an all-rounder?"
+- year: 2022
+  degree: 卒研
+  name: "林 七香"
+  name_en: "Nanaka Hayashi"
+  title: "水流操作による細菌べん毛の柔らかさ測定"
+  title_en: "Measuring the softness of bacterial flagella by manipulating water flow"
+- year: 2021
+  degree: 卒研
+  name: "吉岡青葉"
+  name_en: "Aoba Yoshioka"
+  title: "狭小空間が誘起する細菌の指向性運動"
+  title_en: "Directional bacterial motility induced by confined spaces"

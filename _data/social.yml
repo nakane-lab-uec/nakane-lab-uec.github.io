@@ -1,0 +1,6 @@
+# フッターに並ぶ外部リンク
+- { label: "電気通信大学", label_en: "UEC", url: "https://www.uec.ac.jp/" }
+- { label: "研究プロジェクト「微生物が動く意味」", label_en: "Research project \"Why Microbes Move\"", url: "https://ugokuimi.com/" }
+- { label: "YouTube", label_en: "YouTube", url: "https://www.youtube.com/channel/UCpgRsoOOei7fWkbZAa9eUtg" }
+- { label: "X (Twitter)", label_en: "X (Twitter)", url: "https://x.com/ugokuimi" }
+- { label: "Bluesky", label_en: "Bluesky", url: "https://bsky.app/profile/nakanelab.bsky.social" }

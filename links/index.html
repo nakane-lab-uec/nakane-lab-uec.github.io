@@ -1,0 +1,27 @@
+---
+title: リンク
+title_en: Links
+label: LINKS
+prose: false
+description: 共同研究先や関連する研究室・プロジェクトへのリンク。
+---
+<h2 class="sec-title"><span lang="ja">研究室の発信</span><span lang="en">From our lab</span></h2>
+<ul class="link-list">
+  {% for o in site.data.outreach %}<li><a class="name" href="{{ o.url }}" rel="noopener"><span lang="ja">{{ o.name }}</span><span lang="en">{{ o.name_en | default: o.name }}</span></a></li>
+  {% endfor %}
+</ul>
+
+{% assign sections = "campus|学内|At UEC,external|学外の研究室・共同研究先|Collaborators outside UEC,project|研究プロジェクト|Research projects" | split: "," %}
+{% for s in sections %}{% assign f = s | split: "|" %}
+<h2 class="sec-title"><span lang="ja">{{ f[1] }}</span><span lang="en">{{ f[2] }}</span></h2>
+<ul class="link-list">
+  {% assign items = site.data.links | where: "section", f[0] %}
+  {% for l in items %}
+  <li>
+    {% if l.period != "" %}<span class="period">{{ l.period | replace: "年", "" }}</span>{% endif %}
+    {% if l.url != "" %}<a class="name" href="{{ l.url }}" rel="noopener">{% else %}<span class="name">{% endif %}<span lang="ja">{{ l.name }}</span><span lang="en">{{ l.name_en | default: l.name }}</span>{% if l.url != "" %}</a>{% else %}</span>{% endif %}
+    {% if l.note != "" %}<span class="note"><span lang="ja">{{ l.note | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span><span lang="en">{% if l.note_en != "" %}{{ l.note_en | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% else %}{{ l.note | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}</span></span>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}

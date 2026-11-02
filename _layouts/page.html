@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<header class="page-head colonies">
+  <div class="wrap">
+    <span class="label"><span>{{ page.label | default: page.title | upcase }}</span></span>
+    <h1><span lang="ja">{{ page.title }}</span><span lang="en">{{ page.title_en | default: page.title }}</span></h1>
+  </div>
+</header>
+<div class="page-body">
+  <div class="wrap">
+{% if page.prose != false %}<div class="prose{% if page.wide %} wide{% endif %}">{% include bi-body.html ja=content en=page.body_en %}</div>{% else %}{{ content }}{% endif %}
+  </div>
+</div>

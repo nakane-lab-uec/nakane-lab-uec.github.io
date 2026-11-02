@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<header class="page-head colonies">
+  <div class="wrap">
+    <span class="label"><span>RESEARCH</span></span>
+    <h1><span lang="ja">{{ page.title }}</span><span lang="en">{{ page.title_en }}</span></h1>
+  </div>
+</header>
+<div class="page-body">
+  <div class="wrap">
+    <div class="prose wide">{% include bi-body.html ja=content en=page.body_en %}</div>
+
+    <h2 class="sec-title"><span lang="ja">受賞</span><span lang="en">Awards</span></h2>
+    <ul class="dated">
+      {% assign awards = site.data.awards | sort: "date" | reverse %}
+      {% for a in awards %}<li><span class="d">{{ a.date | replace: "-", "." }}</span><span><span lang="ja">{{ a.award }}</span><span lang="en">{{ a.award_en | default: a.award }}</span></span></li>
+      {% endfor %}
+    </ul>
+
+    <h2 class="sec-title"><span lang="ja">これまでお世話になった研究費</span><span lang="en">Research funding</span></h2>
+    <ul class="plain-list">
+      {% for f in site.data.funding %}<li><span lang="ja">{{ f.name }}</span><span lang="en">{{ f.name_en | default: f.name }}</span></li>
+      {% endfor %}
+    </ul>
+
+    <h2 class="sec-title"><span lang="ja">所属学会</span><span lang="en">Academic societies</span></h2>
+    <p class="card-line"><span lang="ja">{{ page.societies }}</span><span lang="en">{{ page.societies_en | default: page.societies }}</span></p>
+  </div>
+</div>

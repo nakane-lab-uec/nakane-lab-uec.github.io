@@ -1,0 +1,20 @@
+---
+title: お知らせ
+title_en: News
+label: NEWS
+description: 中根研究室のお知らせ。学会発表、論文掲載、研究室のできごと。
+---
+{% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+<nav class="toc years">{% for y in years %}<a href="#y{{ y.name }}">{{ y.name }}<small>{{ y.items.size }}</small></a>{% endfor %}</nav>
+{% for y in years %}
+<h2 class="sec-title" id="y{{ y.name }}">{{ y.name }}</h2>
+<div class="news-list">
+  {% for p in y.items %}
+  <a class="nrow" href="{{ p.url | relative_url }}">
+    <span class="nth">{% if p.image %}<img src="{{ p.image | relative_url }}" alt="" loading="lazy">{% endif %}</span>
+    <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%m.%d" }}</time>
+    <span class="t">{{ p.title }}</span>
+  </a>
+  {% endfor %}
+</div>
+{% endfor %}

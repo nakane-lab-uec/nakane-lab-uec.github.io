@@ -1,0 +1,7 @@
+# 上部メニュー（順番どおりに並びます）
+- { url: /research/, ja: 研究,       en: Research }
+- { url: /people/,   ja: メンバー,   en: Members }
+- { url: /papers/,   ja: 論文,       en: Papers }
+- { url: /news/,     ja: お知らせ,   en: News }
+- { url: /access/,   ja: アクセス,   en: Access }
+- { url: /links/,    ja: リンク,     en: Links }

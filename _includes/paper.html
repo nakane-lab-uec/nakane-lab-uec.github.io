@@ -1,0 +1,2 @@
+{% assign p = include.p %}{% assign authors = p.authors | replace: "Nakane D", "<b>Nakane D</b>" | replace: "中根大介", "<b>中根大介</b>" | replace: "<b><b>", "<b>" | replace: "</b></b>", "</b>" %}
+<li><span class="d">{{ p.year }}</span><div><div class="t">{% if p.url and p.url != "" %}<a href="{{ p.url }}" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}{% if p.preprint %} <span class="chip">preprint</span>{% endif %}</div><div class="meta">{{ authors }}</div><div class="meta"><i>{{ p.journal }}</i> ({{ p.year }})</div></div></li>

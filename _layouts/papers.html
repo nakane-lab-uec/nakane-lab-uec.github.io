@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<header class="page-head colonies">
+  <div class="wrap">
+    <span class="label"><span>PAPERS</span></span>
+    <h1><span lang="ja">{{ page.title }}</span><span lang="en">{{ page.title_en }}</span></h1>
+  </div>
+</header>
+<div class="page-body">
+  <div class="wrap">
+    <div class="prose">{% include bi-body.html ja=content en=page.body_en %}</div>
+
+    {% assign n_orig = site.data.papers | where: "category", "original" | size %}
+    {% assign n_rev = site.data.papers | where: "category", "review" | size %}
+    <nav class="toc" style="margin-top:24px">
+      <a href="#featured"><span lang="ja">代表的な論文（解説付き）</span><span lang="en">Selected papers with notes</span></a>
+      <a href="#original">Original papers<small>{{ n_orig }}</small></a>
+      <a href="#reviews">Reviews &amp; book chapters<small>{{ n_rev }}</small></a>
+    </nav>
+
+    <h2 class="sec-title" id="featured"><span lang="ja">代表的な論文（簡単な解説付き）</span><span lang="en">Selected papers with notes</span></h2>
+    <ol class="featured-list">
+      {% for p in site.data.papers_featured %}{% assign authors = p.authors | replace: "Nakane D", "<b>Nakane D</b>" %}
+      <li>
+        <div class="cite"><div class="t">{% if p.url != "" %}<a href="{{ p.url }}" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+          <div class="meta">{{ authors }}</div><div class="meta"><i>{{ p.journal }}</i> ({{ p.year }})</div></div>
+        <div class="comment">{% include bi-body.html ja=p.comment en=p.comment_en %}</div>
+      </li>
+      {% endfor %}
+    </ol>
+
+    <h2 class="sec-title" id="original">Original papers</h2>
+    {% include paper-list.html category="original" %}
+
+    <h2 class="sec-title" id="reviews">Reviews &amp; book chapters</h2>
+    {% include paper-list.html category="review" %}
+  </div>
+</div>
