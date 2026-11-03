@@ -1,129 +1,353 @@
-# 論文ページ上部「代表的な論文（解説付き）」。上から順に表示されます。
-# comment / comment_en には HTML（<a href="...">リンク</a> など）が使えます。
-
 - year: 2026
-  authors: "Yoshioka A, Shimada YY, Omori T, Uemura NA, Takeshita K, Ishigami K, Morimura H, Furubayashi M, Kan T*, Wada H*, Kikuchi Y*, Nakane D*"
-  title: "Bacteria break through one-micrometer-square passages by flagellar wrapping"
+  authors: Yoshioka A, Shimada YY, Omori T, Uemura NA, Takeshita K, Ishigami K,
+    Morimura H, Furubayashi M, Kan T*, Wada H*, Kikuchi Y*, Nakane D*
+  title: Bacteria break through one-micrometer-square passages by flagellar wrapping
   journal: "Nature Communications 17: 713"
-  url: "https://doi.org/10.1038/s41467-025-67507-9"
-  comment: |-
-    細菌がべん毛を巻き付けて狭小空間を突破することを示しました。菅先生チームがデバイスをつくってくれて、和田さんチームが物理のシミュレーションを、菊池さんチームが昆虫や共生細菌の遺伝学をすすめてくれました。学術変革B 微生物が動く意味のプロジェクトチームのみんなの成果です。中根研1期生の吉岡くんがたくさん実験をしてくれたおかげです。学生の発表賞も <a href="https://www.uec.ac.jp/news/prize/2022/20221107_4919.html" target="_blank" rel="noopener">1</a> <a href="https://www.uec.ac.jp/news/prize/2023/20230627_5468.html" target="_blank" rel="noopener">2</a> <a href="https://www.uec.ac.jp/news/prize/2023/20231211_5847.html" target="_blank" rel="noopener">3</a> <a href="https://www.uec.ac.jp/news/prize/2023/20231212_5849.html" target="_blank" rel="noopener">4</a> ほどいただきました。電通大の<a href="https://www.uec.ac.jp/news/newsrelease/2026/20260122_7393.html" target="_blank" rel="noopener">ニュースリリース</a>や、<a href="https://www.eurekalert.org/news-releases/1113388" target="_blank" rel="noopener">EurekAlert!</a> に登録し、<a href="https://communities.springernature.com/posts/how-a-tiny-bacterium-turns-itself-into-a-tunneling-machine" target="_blank" rel="noopener">ブログ</a>にも内容を記載しました。
-  comment_en: |-
-    We showed that bacteria can squeeze through narrow spaces by wrapping their flagella around their cell bodies. Prof. Kan's team built the devices, Wada's team ran the physics simulations, and Kikuchi's team worked on the genetics of the insects and their symbiotic bacteria. This is a result from the whole team of the KAKENHI Transformative Research Areas (B) project "Why Microbes Move". It was made possible by Yoshioka, a member of the Nakane Lab's first cohort, who did a huge number of experiments. Students also received several presentation awards: <a href="https://www.uec.ac.jp/news/prize/2022/20221107_4919.html" target="_blank" rel="noopener">1</a> <a href="https://www.uec.ac.jp/news/prize/2023/20230627_5468.html" target="_blank" rel="noopener">2</a> <a href="https://www.uec.ac.jp/news/prize/2023/20231211_5847.html" target="_blank" rel="noopener">3</a> <a href="https://www.uec.ac.jp/news/prize/2023/20231212_5849.html" target="_blank" rel="noopener">4</a>. We published a UEC <a href="https://www.uec.ac.jp/news/newsrelease/2026/20260122_7393.html" target="_blank" rel="noopener">news release</a>, posted it on <a href="https://www.eurekalert.org/news-releases/1113388" target="_blank" rel="noopener">EurekAlert!</a>, and also wrote about it in a <a href="https://communities.springernature.com/posts/how-a-tiny-bacterium-turns-itself-into-a-tunneling-machine" target="_blank" rel="noopener">blog post</a>.
+  url: https://doi.org/10.1038/s41467-025-67507-9
+  comment: <p>細菌がべん毛を巻き付けて狭小空間を突破することを示しました。菅先生チームがデバイスをつくってくれて、和田さんチームが物理のシミュレーションを、菊池さんチームが昆虫や共生細菌の遺伝学をすすめてくれました。学術変革B
+    微生物が動く意味のプロジェクトチームのみんなの成果です。中根研1期生の吉岡くんがたくさん実験をしてくれたおかげです。学生の発表賞も <a
+    target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/prize/2022/20221107_4919.html">1</a> <a
+    target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/prize/2023/20230627_5468.html">2</a> <a
+    target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/prize/2023/20231211_5847.html">3</a> <a
+    target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/prize/2023/20231212_5849.html">4</a>
+    ほどいただきました。電通大の<a target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/newsrelease/2026/20260122_7393.html">ニュースリリース</a>や、<a
+    target="_blank" rel="noopener"
+    href="https://www.eurekalert.org/news-releases/1113388">EurekAlert!</a>
+    に登録し、<a target="_blank" rel="noopener"
+    href="https://communities.springernature.com/posts/how-a-tiny-bacterium-turns-itself-into-a-tunneling-machine">ブログ</a>にも内容を記載しました。</p>
+  comment_en: "<p>We showed that bacteria can squeeze through narrow spaces by
+    wrapping their flagella around their cell bodies. Prof. Kan's team built the
+    devices, Wada's team ran the physics simulations, and Kikuchi's team worked
+    on the genetics of the insects and their symbiotic bacteria. This is a
+    result from the whole team of the KAKENHI Transformative Research Areas (B)
+    project \"Why Microbes Move\". It was made possible by Aoba, a member of the
+    Nakane Lab's first cohort, who did a huge number of experiments. Students
+    also received several presentation awards: <a target=\"_blank\"
+    rel=\"noopener\"
+    href=\"https://www.uec.ac.jp/news/prize/2022/20221107_4919.html\">1</a> <a
+    target=\"_blank\" rel=\"noopener\"
+    href=\"https://www.uec.ac.jp/news/prize/2023/20230627_5468.html\">2</a> <a
+    target=\"_blank\" rel=\"noopener\"
+    href=\"https://www.uec.ac.jp/news/prize/2023/20231211_5847.html\">3</a> <a
+    target=\"_blank\" rel=\"noopener\"
+    href=\"https://www.uec.ac.jp/news/prize/2023/20231212_5849.html\">4</a>. We
+    published a UEC <a target=\"_blank\" rel=\"noopener\"
+    href=\"https://www.uec.ac.jp/news/newsrelease/2026/20260122_7393.html\">news
+    release</a>, posted it on <a target=\"_blank\" rel=\"noopener\"
+    href=\"https://www.eurekalert.org/news-releases/1113388\">EurekAlert!</a>,
+    and also wrote about it in a <a target=\"_blank\" rel=\"noopener\"
+    href=\"https://communities.springernature.com/posts/how-a-tiny-bacterium-tu\
+    rns-itself-into-a-tunneling-machine\">blog post</a>.</p>"
 - year: 2025
-  authors: "Uemura NA, Chiba N, Morikawa R, Tamakoshi M, Nakane D*"
-  title: "Rapid water flow triggers long-distance positive rheotaxis for thermophilic bacteria"
+  authors: Uemura NA, Chiba N, Morikawa R, Tamakoshi M, Nakane D*
+  title: Rapid water flow triggers long-distance positive rheotaxis for
+    thermophilic bacteria
   journal: "The ISME Journal 19: wraf164"
-  url: "https://doi.org/10.1093/ismejo/wraf164"
-  comment: |-
-    温泉などから単離される高度好熱菌 <i>Thermus thermophilus </i>は水流に逆らって運動することを示しました。これを正の走流性と呼びます。栄養分がなくなると、自身の先端を固体表面に付着させたまま立ち上がり、そのまま上流に向かいます。動画は<a href="https://www.youtube.com/watch?v=tSZ4Ap-1oKY" target="_blank" rel="noopener">こちら</a>。このような応答はこの細菌に近縁なたくさんの細菌で一般的であることを見出しました。上村くんがいっぱい実験してくれました。学生の発表賞も <a href="/news/20250124-56262856/" target="_blank" rel="noopener">1</a>, <a href="/news/20240628-54542635/" target="_blank" rel="noopener">2</a>, <a href="/news/20240618-54177271/" target="_blank" rel="noopener">3</a>, <a href="/news/20231201-49787282/" target="_blank" rel="noopener">4</a>, <a href="/news/20231030-49011074/" target="_blank" rel="noopener">5</a>, <a href="/news/20230821-47198347/" target="_blank" rel="noopener">6</a>, <a href="/news/20230317-42177650/" target="_blank" rel="noopener">7</a>, <a href="/news/20221104-38571955/" target="_blank" rel="noopener">8</a> ほどいただきました。電通大の<a href="https://www.uec.ac.jp/news/newsrelease/2025/20250806_7119.html" target="_blank" rel="noopener">ニュースリリース</a>にも掲載してもらいました。<a href="https://www.eurekalert.org/news-releases/1093594" target="_blank" rel="noopener">EurekAlert!</a> にも登録しました。<a href="https://isme-microbes.org/hot-spring-bacteria-move-against-the-flow/" target="_blank" rel="noopener">Editor's Choice</a> にも選ばれました!
-  comment_en: |-
-    We showed that the extremely thermophilic bacterium <i>Thermus thermophilus </i>(isolated from places such as hot springs) moves against water flow. This is called positive rheotaxis. When nutrients run out, the cells stand up with one pole still attached to the solid surface and move upstream in that position. Watch the video <a href="https://www.youtube.com/watch?v=tSZ4Ap-1oKY" target="_blank" rel="noopener">here</a>. We found that this response is common among many bacteria closely related to this species. Uemura did a lot of the experiments. Students also received several presentation awards: <a href="/news/20250124-56262856/" target="_blank" rel="noopener">1</a>, <a href="/news/20240628-54542635/" target="_blank" rel="noopener">2</a>, <a href="/news/20240618-54177271/" target="_blank" rel="noopener">3</a>, <a href="/news/20231201-49787282/" target="_blank" rel="noopener">4</a>, <a href="/news/20231030-49011074/" target="_blank" rel="noopener">5</a>, <a href="/news/20230821-47198347/" target="_blank" rel="noopener">6</a>, <a href="/news/20230317-42177650/" target="_blank" rel="noopener">7</a>, <a href="/news/20221104-38571955/" target="_blank" rel="noopener">8</a>. The work was featured in a UEC <a href="https://www.uec.ac.jp/news/newsrelease/2025/20250806_7119.html" target="_blank" rel="noopener">news release</a>, and we also posted it on <a href="https://www.eurekalert.org/news-releases/1093594" target="_blank" rel="noopener">EurekAlert!</a>. It was even selected as an <a href="https://isme-microbes.org/hot-spring-bacteria-move-against-the-flow/" target="_blank" rel="noopener">Editor's Choice</a>!
+  url: https://doi.org/10.1093/ismejo/wraf164
+  comment: <p>温泉などから単離される高度好熱菌 <em>Thermus thermophilus
+    </em>は水流に逆らって運動することを示しました。これを正の走流性と呼びます。栄養分がなくなると、自身の先端を固体表面に付着させたまま立ち上がり、そのまま上流に向かいます。動画は<a
+    target="_blank" rel="noopener"
+    href="https://www.youtube.com/watch?v=tSZ4Ap-1oKY">こちら</a>。このような応答はこの細菌に近縁なたくさんの細菌で一般的であることを見出しました。上村くんがいっぱい実験してくれました。学生の発表賞も
+    <a target="_blank" rel="noopener" href="/news/20250124-56262856/">1</a>, <a
+    target="_blank" rel="noopener" href="/news/20240628-54542635/">2</a>, <a
+    target="_blank" rel="noopener" href="/news/20240618-54177271/">3</a>, <a
+    target="_blank" rel="noopener" href="/news/20231201-49787282/">4</a>, <a
+    target="_blank" rel="noopener" href="/news/20231030-49011074/">5</a>, <a
+    target="_blank" rel="noopener" href="/news/20230821-47198347/">6</a>, <a
+    target="_blank" rel="noopener" href="/news/20230317-42177650/">7</a>, <a
+    target="_blank" rel="noopener" href="/news/20221104-38571955/">8</a>
+    ほどいただきました。電通大の<a target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/newsrelease/2025/20250806_7119.html">ニュースリリース</a>にも掲載してもらいました。<a
+    target="_blank" rel="noopener"
+    href="https://www.eurekalert.org/news-releases/1093594">EurekAlert!</a>
+    にも登録しました。<a target="_blank" rel="noopener"
+    href="https://isme-microbes.org/hot-spring-bacteria-move-against-the-flow/">Editor's
+    Choice</a> にも選ばれました!</p>
+  comment_en: "<p>We showed that the extremely thermophilic bacterium <em>Thermus
+    thermophilus </em>(isolated from places such as hot springs) moves against
+    water flow. This is called positive rheotaxis. When nutrients run out, the
+    cells stand up with one pole still attached to the solid surface and move
+    upstream in that position. Watch the video <a target=\"_blank\"
+    rel=\"noopener\"
+    href=\"https://www.youtube.com/watch?v=tSZ4Ap-1oKY\">here</a>. We found that
+    this response is common among many bacteria closely related to this species.
+    Naoki did a lot of the experiments. Students also received several
+    presentation awards: <a target=\"_blank\" rel=\"noopener\"
+    href=\"/news/20250124-56262856/\">1</a>, <a target=\"_blank\"
+    rel=\"noopener\" href=\"/news/20240628-54542635/\">2</a>, <a
+    target=\"_blank\" rel=\"noopener\" href=\"/news/20240618-54177271/\">3</a>,
+    <a target=\"_blank\" rel=\"noopener\"
+    href=\"/news/20231201-49787282/\">4</a>, <a target=\"_blank\"
+    rel=\"noopener\" href=\"/news/20231030-49011074/\">5</a>, <a
+    target=\"_blank\" rel=\"noopener\" href=\"/news/20230821-47198347/\">6</a>,
+    <a target=\"_blank\" rel=\"noopener\"
+    href=\"/news/20230317-42177650/\">7</a>, <a target=\"_blank\"
+    rel=\"noopener\" href=\"/news/20221104-38571955/\">8</a>. The work was
+    featured in a UEC <a target=\"_blank\" rel=\"noopener\"
+    href=\"https://www.uec.ac.jp/news/newsrelease/2025/20250806_7119.html\">news
+    release</a>, and we also posted it on <a target=\"_blank\" rel=\"noopener\"
+    href=\"https://www.eurekalert.org/news-releases/1093594\">EurekAlert!</a>.
+    It was even selected as an <a target=\"_blank\" rel=\"noopener\"
+    href=\"https://isme-microbes.org/hot-spring-bacteria-move-against-the-flow/\
+    \">Editor's Choice</a>!</p>"
 - year: 2022
-  authors: "Nakane D†*, Kabata Y†, Nishizaka T*"
-  title: "Cell shape controls rheotaxis in small parasitic bacteria"
+  authors: Nakane D†*, Kabata Y†, Nishizaka T*
+  title: Cell shape controls rheotaxis in small parasitic bacteria
   journal: "PLOS Pathogens 18: e1010648"
-  url: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1010648"
-  comment: |-
-    マイコプラズマという寄生性の小さな細菌が、走流性を示すことを見つけました。走流性とは、流れに応答して自身の運動方向を制御させる能力のことを指します。魚などは流れに逆らって泳ぐことが知られていますが、同様の能力を最小の生物であるマイコプラズマも持つようです。マイコプラズマはヒトを含む高等生物に寄生して生活していることが良く知られていますが、それらの実環境中にある水流の流れをうまく利用して、自身の目的地へと到達しているのだと考えられます。学習院大学所属時の学生 加畑くんがたくさん実験してくれました。感謝です。加畑くんは日本生物物理学会年会で、<a href="https://www.biophys.jp/ann/ann01_07.html" target="_blank" rel="noopener">学生発表賞</a>を受賞しています。この論文のプレスリリースは<a href="https://www.uec.ac.jp/news/announcement/2022/20220715_4644.html" target="_blank" rel="noopener">こちら</a>。
-  comment_en: |-
-    We found that Mycoplasma, a small parasitic bacterium, shows rheotaxis. Rheotaxis is the ability to steer one's direction of movement in response to flow. Fish are known to swim against the current, and it seems that Mycoplasma, the smallest living organism, has a similar ability. Mycoplasma is well known to live as a parasite on higher organisms, including humans, and it probably makes clever use of the fluid flow in these real environments to reach its destination. Kabata, a student in my group when I was at Gakushuin University, did a lot of the experiments. Many thanks. Kabata received the <a href="https://www.biophys.jp/ann/ann01_07.html" target="_blank" rel="noopener">Student Presentation Award</a> at the Annual Meeting of the Biophysical Society of Japan. The press release for this paper is <a href="https://www.uec.ac.jp/news/announcement/2022/20220715_4644.html" target="_blank" rel="noopener">here</a>.
+  url: https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1010648
+  comment: <p>マイコプラズマという寄生性の小さな細菌が、走流性を示すことを見つけました。走流性とは、流れに応答して自身の運動方向を制御させる能力のことを指します。魚などは流れに逆らって泳ぐことが知られていますが、同様の能力を最小の生物であるマイコプラズマも持つようです。マイコプラズマはヒトを含む高等生物に寄生して生活していることが良く知られていますが、それらの実環境中にある水流の流れをうまく利用して、自身の目的地へと到達しているのだと考えられます。学習院大学所属時の学生
+    加畑くんがたくさん実験してくれました。感謝です。加畑くんは日本生物物理学会年会で、<a target="_blank" rel="noopener"
+    href="https://www.biophys.jp/ann/ann01_07.html">学生発表賞</a>を受賞しています。この論文のプレスリリースは<a
+    target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/announcement/2022/20220715_4644.html">こちら</a>。</p>
+  comment_en: <p>We found that Mycoplasma, a small parasitic bacterium, shows
+    rheotaxis. Rheotaxis is the ability to steer one's direction of movement in
+    response to flow. Fish are known to swim against the current, and it seems
+    that Mycoplasma, the smallest living organism, has a similar ability.
+    Mycoplasma is well known to live as a parasite on higher organisms,
+    including humans, and it probably makes clever use of the fluid flow in
+    these real environments to reach its destination. Kabata, a student in my
+    group when I was at Gakushuin University, did a lot of the experiments. Many
+    thanks. Kabata received the <a target="_blank" rel="noopener"
+    href="https://www.biophys.jp/ann/ann01_07.html">Student Presentation
+    Award</a> at the Annual Meeting of the Biophysical Society of Japan. The
+    press release for this paper is <a target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/announcement/2022/20220715_4644.html">here</a>.</p>
 - year: 2022
-  authors: "Nakane D†*, Enomoto G†*, Bähre H, Hirose Y, Wilde A*, Nishizaka T"
-  title: "<i>Thermosynechococcus</i> switches the direction of phototaxis by a c-di-GMP dependent process with high spatial resolution"
+  authors: Nakane D†*, Enomoto G†*, Bähre H, Hirose Y, Wilde A*, Nishizaka T
+  title: <i>Thermosynechococcus</i> switches the direction of phototaxis by a
+    c-di-GMP dependent process with high spatial resolution
   journal: "eLife 11: e73405"
-  url: "https://doi.org/10.7554/eLife.73405"
-  comment: |-
-    サーモシネココッカスという好熱性の藍藻において、走光性の正と負の切り替えが c-di-GMP という分子によって制御されていることを示しました。光を受けると藍藻は短軸に沿った細胞極性を生み出し、IV型線毛を非対称に分布させて指向性のある運動を示します。45℃での観察は難しい部分もありましたが、フライブルグにいる榎本さんの変異株が完璧で、たった 7 nm ほどの細さのIV型線毛繊維の動態を可視化することができました。Annegret さんと共にドイツと日本で協力して、素敵な研究成果が得られました。この論文のプレスリリースは<a href="https://www.uec.ac.jp/news/announcement/2022/20220509_4466.html" target="_blank" rel="noopener">こちら</a>。<a href="https://elifesciences.org/digests/73405/go-forward-or-back-away-from-the-light" target="_blank" rel="noopener">eLife Digest </a>にも選ばれました。<a href="https://twitter.com/GeneElements/status/1523950420636413953?cxt=HHwWgsC51aq1lKYqAAAA" target="_blank" rel="noopener">Twitter</a> で榎本さんが解説してくれています。
-  comment_en: |-
-    We showed that in the thermophilic cyanobacterium Thermosynechococcus, switching between positive and negative phototaxis is controlled by a molecule called c-di-GMP. When exposed to light, the cells create a polarity along their short axis and distribute type IV pili asymmetrically, which produces directional movement. Observing at 45&nbsp;°C was tricky in places, but the mutants made by Enomoto in Freiburg were perfect, and we were able to visualize the dynamics of type IV pilus filaments only about 7 nm thick. Working together with Annegret across Germany and Japan, we got a wonderful result. The press release for this paper is <a href="https://www.uec.ac.jp/news/announcement/2022/20220509_4466.html" target="_blank" rel="noopener">here</a>. It was also selected for an <a href="https://elifesciences.org/digests/73405/go-forward-or-back-away-from-the-light" target="_blank" rel="noopener">eLife Digest </a>. Enomoto explains the work on <a href="https://twitter.com/GeneElements/status/1523950420636413953?cxt=HHwWgsC51aq1lKYqAAAA" target="_blank" rel="noopener">Twitter</a>.
+  url: https://doi.org/10.7554/eLife.73405
+  comment: <p>サーモシネココッカスという好熱性の藍藻において、走光性の正と負の切り替えが c-di-GMP
+    という分子によって制御されていることを示しました。光を受けると藍藻は短軸に沿った細胞極性を生み出し、IV型線毛を非対称に分布させて指向性のある運動を示します。45℃での観察は難しい部分もありましたが、フライブルグにいる榎本さんの変異株が完璧で、たった
+    7 nm ほどの細さのIV型線毛繊維の動態を可視化することができました。Annegret
+    さんと共にドイツと日本で協力して、素敵な研究成果が得られました。この論文のプレスリリースは<a target="_blank"
+    rel="noopener"
+    href="https://www.uec.ac.jp/news/announcement/2022/20220509_4466.html">こちら</a>。<a
+    target="_blank" rel="noopener"
+    href="https://elifesciences.org/digests/73405/go-forward-or-back-away-from-the-light">eLife
+    Digest </a>にも選ばれました。<a target="_blank" rel="noopener"
+    href="https://twitter.com/GeneElements/status/1523950420636413953?cxt=HHwWgsC51aq1lKYqAAAA">Twitter</a>
+    で榎本さんが解説してくれています。</p>
+  comment_en: <p>We showed that in the thermophilic cyanobacterium
+    Thermosynechococcus, switching between positive and negative phototaxis is
+    controlled by a molecule called c-di-GMP. When exposed to light, the cells
+    create a polarity along their short axis and distribute type IV pili
+    asymmetrically, which produces directional movement. Observing at 45&nbsp;°C
+    was tricky in places, but the mutants made by Enomoto in Freiburg were
+    perfect, and we were able to visualize the dynamics of type IV pilus
+    filaments only about 7 nm thick. Working together with Annegret across
+    Germany and Japan, we got a wonderful result. The press release for this
+    paper is <a target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/announcement/2022/20220509_4466.html">here</a>.
+    It was also selected for an <a target="_blank" rel="noopener"
+    href="https://elifesciences.org/digests/73405/go-forward-or-back-away-from-the-light">eLife
+    Digest </a>. Enomoto explains the work on <a target="_blank" rel="noopener"
+    href="https://twitter.com/GeneElements/status/1523950420636413953?cxt=HHwWgsC51aq1lKYqAAAA">Twitter</a>.</p>
 - year: 2021
-  authors: "Nakane D†*, Murata K†, Kenri T†, Shibayama K, Nishizaka T*"
-  title: "Molecular ruler of the attachment organelle in <i>Mycoplasma pneumoniae</i>"
+  authors: Nakane D†*, Murata K†, Kenri T†, Shibayama K, Nishizaka T*
+  title: Molecular ruler of the attachment organelle in <i>Mycoplasma pneumoniae</i>
   journal: "PLOS Pathogens 17: e1009621"
-  url: "https://doi.org/10.1371/journal.ppat.1009621"
-  comment: |-
-    ヒト肺炎の病原細菌に「ものさし」として機能するタンパク質があることを見つけました。ものさし分子を人為的に改変して 短く/長く すると、接着器官という 300 nm ほどの超分子構造体を 短く/長く 変化させることが可能です。学習院大学所属時の学生 村田くんと感染研の見理さんがたくさん変異株をつくって実験をしてくれました。感謝です。村田くんは日本細菌学会総会や日本マイコプラズマ学会学術集会で<a href="https://www.univ.gakushuin.ac.jp/news/2020/0210.html" target="_blank" rel="noopener">優秀発表賞</a>を受賞しています。この論文のプレスリリースは<a href="https://www.uec.ac.jp/about/publicity/news_release/2021/pdf/20210611.pdf" target="_blank" rel="noopener">こちら</a>。
-  comment_en: |-
-    We found that a pathogenic bacterium that causes human pneumonia has a protein that works as a "ruler". By artificially making this ruler molecule shorter or longer, we can make the attachment organelle, a supramolecular structure about 300 nm long, shorter or longer. Murata, a student in my group when I was at Gakushuin University, and Kenri at the National Institute of Infectious Diseases made many mutants and did lots of experiments. Many thanks. Murata received <a href="https://www.univ.gakushuin.ac.jp/news/2020/0210.html" target="_blank" rel="noopener">Excellent Presentation Awards</a> at the Annual Meeting of the Japanese Society for Bacteriology and at the meeting of the Japanese Society of Mycoplasmology. The press release for this paper is <a href="https://www.uec.ac.jp/about/publicity/news_release/2021/pdf/20210611.pdf" target="_blank" rel="noopener">here</a>.
+  url: https://doi.org/10.1371/journal.ppat.1009621
+  comment: <p>ヒト肺炎の病原細菌に「ものさし」として機能するタンパク質があることを見つけました。ものさし分子を人為的に改変して 短く/長く
+    すると、接着器官という 300 nm ほどの超分子構造体を 短く/長く 変化させることが可能です。学習院大学所属時の学生
+    村田くんと感染研の見理さんがたくさん変異株をつくって実験をしてくれました。感謝です。村田くんは日本細菌学会総会や日本マイコプラズマ学会学術集会で<a
+    target="_blank" rel="noopener"
+    href="https://www.univ.gakushuin.ac.jp/news/2020/0210.html">優秀発表賞</a>を受賞しています。この論文のプレスリリースは<a
+    target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/about/publicity/news_release/2021/pdf/20210611.pdf">こちら</a>。</p>
+  comment_en: <p>We found that a pathogenic bacterium that causes human pneumonia
+    has a protein that works as a "ruler". By artificially making this ruler
+    molecule shorter or longer, we can make the attachment organelle, a
+    supramolecular structure about 300 nm long, shorter or longer. Murata, a
+    student in my group when I was at Gakushuin University, and Kenri at the
+    National Institute of Infectious Diseases made many mutants and did lots of
+    experiments. Many thanks. Murata received <a target="_blank" rel="noopener"
+    href="https://www.univ.gakushuin.ac.jp/news/2020/0210.html">Excellent
+    Presentation Awards</a> at the Annual Meeting of the Japanese Society for
+    Bacteriology and at the meeting of the Japanese Society of Mycoplasmology.
+    The press release for this paper is <a target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/about/publicity/news_release/2021/pdf/20210611.pdf">here</a>.</p>
 - year: 2021
-  authors: "Nakane D*, Odaka S, Suzuki K, Nishizaka T*"
-  title: "Large-scale vortices with dynamic rotation emerged from monolayer collective motion of gliding <i>Flavobacteria</i>"
+  authors: Nakane D*, Odaka S, Suzuki K, Nishizaka T*
+  title: Large-scale vortices with dynamic rotation emerged from monolayer
+    collective motion of gliding <i>Flavobacteria</i>
   journal: "Journal of Bacteriology 203: e00073-21"
-  url: "https://doi.org/10.1128/JB.00073-21"
-  comment: |-
-    フラボバクテリウムという細菌が集団になると巨大な渦模様をつくることを見つけました。その渦は、なぜか必ず反時計回りに回転します。土壌にいる細菌ですので、ふと土のなかを覗いてみると、私たちの知らない間にぐるぐると回っているのかもしれませんね。学習院大学所属時の学生 小高さんが主に頑張って実験をしてくれました。Movieなどは<a href="https://www.youtube.com/watch?v=auhm-uGOPDA" target="_blank" rel="noopener">こちら</a>をご覧ください。プレスリリースは<a href="https://www.uec.ac.jp/news/announcement/2021/20210623_3490.html" target="_blank" rel="noopener">こちら</a>。
-  comment_en: |-
-    We found that the bacterium Flavobacterium forms huge swirling patterns when cells gather in groups. For some reason, the swirls always rotate counterclockwise. Since this bacterium lives in soil, if you could peek into the ground, it might be spinning round and round there without us ever knowing. Odaka, a student in my group when I was at Gakushuin University, did most of the hard work on the experiments. See <a href="https://www.youtube.com/watch?v=auhm-uGOPDA" target="_blank" rel="noopener">here</a> for movies. The press release is <a href="https://www.uec.ac.jp/news/announcement/2021/20210623_3490.html" target="_blank" rel="noopener">here</a>.
+  url: https://doi.org/10.1128/JB.00073-21
+  comment: <p>フラボバクテリウムという細菌が集団になると巨大な渦模様をつくることを見つけました。その渦は、なぜか必ず反時計回りに回転します。土壌にいる細菌ですので、ふと土のなかを覗いてみると、私たちの知らない間にぐるぐると回っているのかもしれませんね。学習院大学所属時の学生
+    小高さんが主に頑張って実験をしてくれました。Movieなどは<a target="_blank" rel="noopener"
+    href="https://www.youtube.com/watch?v=auhm-uGOPDA">こちら</a>をご覧ください。プレスリリースは<a
+    target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/announcement/2021/20210623_3490.html">こちら</a>。</p>
+  comment_en: <p>We found that the bacterium Flavobacterium forms huge swirling
+    patterns when cells gather in groups. For some reason, the swirls always
+    rotate counterclockwise. Since this bacterium lives in soil, if you could
+    peek into the ground, it might be spinning round and round there without us
+    ever knowing. Odaka, a student in my group when I was at Gakushuin
+    University, did most of the hard work on the experiments. See <a
+    target="_blank" rel="noopener"
+    href="https://www.youtube.com/watch?v=auhm-uGOPDA">here</a> for movies. The
+    press release is <a target="_blank" rel="noopener"
+    href="https://www.uec.ac.jp/news/announcement/2021/20210623_3490.html">here</a>.</p>
 - year: 2020
-  authors: "Cohen EJ†, Nakane D†, Kabata Y, Hendrixson DR, Nishizaka T, Beeby M*"
-  title: "<i>Campylobacter jejuni</i> motility integrates specialized cell shape, flagellar filament, and motor, to coordinate action of its opposed flagella"
+  authors: Cohen EJ†, Nakane D†, Kabata Y, Hendrixson DR, Nishizaka T, Beeby M*
+  title: <i>Campylobacter jejuni</i> motility integrates specialized cell shape,
+    flagellar filament, and motor, to coordinate action of its opposed flagella
   journal: "PLOS Pathogens 16: e1008620"
-  url: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1008620"
-  comment: |-
-    カンピロバクターという病原細菌のユニークな遊泳様式を明らかにしました。2本あるべん毛のうち、片方を体に巻き付けて、ドリルのように進みます。MorganとEli との共同研究。Eliがつくった変異株がバッチリで、べん毛が綺麗に標識されています。Eli はしばらく日本に滞在してくれて、毎日のようにビールを飲みながら研究のことを話していました。良い思い出です。コロナの前のことですので、随分昔のことのように思えます。プレスリリースは<a href="https://www.univ.gakushuin.ac.jp/news/2020/0703.html" target="_blank" rel="noopener">こちら</a>。
-  comment_en: |-
-    We revealed the unique swimming style of the pathogenic bacterium Campylobacter. Of its two flagella, it wraps one around its body and moves forward like a drill. This was a collaboration with Morgan and Eli. The mutants Eli made were spot on, with the flagella beautifully labeled. Eli stayed in Japan for a while, and we talked about research almost every day over beers. Good memories. That was before COVID, so it feels like a long time ago. The press release is <a href="https://www.univ.gakushuin.ac.jp/news/2020/0703.html" target="_blank" rel="noopener">here</a>.
+  url: https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1008620
+  comment: <p>カンピロバクターという病原細菌のユニークな遊泳様式を明らかにしました。2本あるべん毛のうち、片方を体に巻き付けて、ドリルのように進みます。MorganとEli
+    との共同研究。Eliがつくった変異株がバッチリで、べん毛が綺麗に標識されています。Eli
+    はしばらく日本に滞在してくれて、毎日のようにビールを飲みながら研究のことを話していました。良い思い出です。コロナの前のことですので、随分昔のことのように思えます。プレスリリースは<a
+    target="_blank" rel="noopener"
+    href="https://www.univ.gakushuin.ac.jp/news/2020/0703.html">こちら</a>。</p>
+  comment_en: <p>We revealed the unique swimming style of the pathogenic bacterium
+    Campylobacter. Of its two flagella, it wraps one around its body and moves
+    forward like a drill. This was a collaboration with Morgan and Eli. The
+    mutants Eli made were spot on, with the flagella beautifully labeled. Eli
+    stayed in Japan for a while, and we talked about research almost every day
+    over beers. Good memories. That was before COVID, so it feels like a long
+    time ago. The press release is <a target="_blank" rel="noopener"
+    href="https://www.univ.gakushuin.ac.jp/news/2020/0703.html">here</a>.</p>
 - year: 2020
-  authors: "Nakane D†*, Ito T†, and Nishizaka T*"
-  title: "Co-existence of two chiral helices produces kink translation in <i>Spiroplasma</i> swimming"
+  authors: Nakane D†*, Ito T†, and Nishizaka T*
+  title: Co-existence of two chiral helices produces kink translation in
+    <i>Spiroplasma</i> swimming
   journal: "Journal of Bacteriology 202: e00735-19"
-  url: "https://jb.asm.org/content/202/8/e00735-19"
-  comment: |-
-    スピロプラズマという「らせん」細菌は、べん毛がないのに自由に動くことができます。バクテリアの中で、べん毛を使わずに遊泳できるのは、スピロプラズマとシネココッカスのみ。体をねじって、2つのらせんをつくることで、上手に推進力を出すのですが、その伝搬は受動的であることを示しました。学習院大学所属時の学生 伊藤くんが頑張って実験してくれました。この学術誌の<a href="https://jb.asm.org/content/202/8" target="_blank" rel="noopener">表紙</a>にも採択されました。
-  comment_en: |-
-    Spiroplasma, a helical bacterium, can move freely even though it has no flagella. Among bacteria, only Spiroplasma and Synechococcus are known to swim without flagella. Spiroplasma twists its body to form two helices and generates propulsion very efficiently, and we showed that the propagation of this twist is passive. Ito, a student in my group when I was at Gakushuin University, worked hard on the experiments. The work was also chosen for the <a href="https://jb.asm.org/content/202/8" target="_blank" rel="noopener">cover</a> of the journal.
+  url: https://jb.asm.org/content/202/8/e00735-19
+  comment: <p>スピロプラズマという「らせん」細菌は、べん毛がないのに自由に動くことができます。バクテリアの中で、べん毛を使わずに遊泳できるのは、スピロプラズマとシネココッカスのみ。体をねじって、2つのらせんをつくることで、上手に推進力を出すのですが、その伝搬は受動的であることを示しました。学習院大学所属時の学生
+    伊藤くんが頑張って実験してくれました。この学術誌の<a target="_blank" rel="noopener"
+    href="https://jb.asm.org/content/202/8">表紙</a>にも採択されました。</p>
+  comment_en: <p>Spiroplasma, a helical bacterium, can move freely even though it
+    has no flagella. Among bacteria, only Spiroplasma and Synechococcus are
+    known to swim without flagella. Spiroplasma twists its body to form two
+    helices and generates propulsion very efficiently, and we showed that the
+    propagation of this twist is passive. Ito, a student in my group when I was
+    at Gakushuin University, worked hard on the experiments. The work was also
+    chosen for the <a target="_blank" rel="noopener"
+    href="https://jb.asm.org/content/202/8">cover</a> of the journal.</p>
 - year: 2019
-  authors: "Iwata S, Kinosita Y, Uchida N, Nakane D*, Nishizaka T*"
-  title: "Motor torque measurement of <i>Halobacterium salinarum</i> archaellar suggests a general model for ATP-driven rotary motors"
+  authors: Iwata S, Kinosita Y, Uchida N, Nakane D*, Nishizaka T*
+  title: Motor torque measurement of <i>Halobacterium salinarum</i> archaellar
+    suggests a general model for ATP-driven rotary motors
   journal: "Communications Biology 2: 199"
-  url: "https://www.nature.com/articles/s42003-019-0422-6"
-  comment: |-
-    ハロバクテリアというアーキア（古細菌）が持つべん毛モーターのトルクを計測しました。実は、アーキアとバクテリアはどちらも「べん毛」という運動装置を持っていますが、全く異なる分子から構成されており進化的起源が異なります。アーキアのべん毛にはまだまだわからないことがたくさんあります。この研究は、学習院所属時の学生 岩田くんが頑張って実験してくれました。そういえば岩田くんは競馬が好きでした。電通大から府中の競馬場は近いですね。プレスリリースは<a href="https://www.univ.gakushuin.ac.jp/about/pr/press/20190527_release.pdf" target="_blank" rel="noopener">こちら</a>。
-  comment_en: |-
-    We measured the torque of the flagellar motor of Halobacterium, an archaeon. Archaea and bacteria both have a motility machine called the "flagellum", but the two are made of completely different molecules and have different evolutionary origins. There is still a lot we don't know about archaeal flagella. Iwata, a student in my group when I was at Gakushuin, worked hard on the experiments for this study. Come to think of it, Iwata loved horse racing. The Fuchu racecourse is close to UEC. The press release is <a href="https://www.univ.gakushuin.ac.jp/about/pr/press/20190527_release.pdf" target="_blank" rel="noopener">here</a>.
+  url: https://www.nature.com/articles/s42003-019-0422-6
+  comment: <p>ハロバクテリアというアーキア（古細菌）が持つべん毛モーターのトルクを計測しました。実は、アーキアとバクテリアはどちらも「べん毛」という運動装置を持っていますが、全く異なる分子から構成されており進化的起源が異なります。アーキアのべん毛にはまだまだわからないことがたくさんあります。この研究は、学習院所属時の学生
+    岩田くんが頑張って実験してくれました。そういえば岩田くんは競馬が好きでした。電通大から府中の競馬場は近いですね。プレスリリースは<a
+    target="_blank" rel="noopener"
+    href="https://www.univ.gakushuin.ac.jp/about/pr/press/20190527_release.pdf">こちら</a>。</p>
+  comment_en: <p>We measured the torque of the flagellar motor of Halobacterium,
+    an archaeon. Archaea and bacteria both have a motility machine called the
+    "flagellum", but the two are made of completely different molecules and have
+    different evolutionary origins. There is still a lot we don't know about
+    archaeal flagella. Iwata, a student in my group when I was at Gakushuin,
+    worked hard on the experiments for this study. Come to think of it, Iwata
+    loved horse racing. The Fuchu racecourse is close to UEC. The press release
+    is <a target="_blank" rel="noopener"
+    href="https://www.univ.gakushuin.ac.jp/about/pr/press/20190527_release.pdf">here</a>.</p>
 - year: 2017
-  authors: "Nakane D, and Nishizaka T*"
-  title: "Asymmetric distribution of type IV pili triggered by directional light in unicellular cyanobacteria"
+  authors: Nakane D, and Nishizaka T*
+  title: Asymmetric distribution of type IV pili triggered by directional light in
+    unicellular cyanobacteria
   journal: "Proc. Natl. Acad. Sci. USA 114: 6593-98"
-  url: "https://www.pnas.org/content/114/25/6593"
-  comment: |-
-    シアノバクテリアが「糸」を使ってスパイダーマンのように動く仕組みを明らかにしました。IV型線毛という細い繊維構造は根元のモーターで伸びたり縮んだりすることができます。しかも、この伸縮を上手に制御して、光に向かって動いたり、逆に、強い光からは逃げるような動きを示します。この仕組みについても言及しています。シアノバクテリアが光の向きを認識する仕組みについては、一歩先にNilsとAnnegretさんたちが報告しました。けれど、その<a href="https://elifesciences.org/articles/12620" target="_blank" rel="noopener">論文</a>も面白いです。 シアノバクテリアの変異株は東工大の増田さんからいただきました。ありがとうございます。この論文は、私と西坂さんだけしか名前がありません。学習院大学 西坂研にうつってから4年経って、しっかりとした成果がでました。とても嬉しかったのを覚えています。プレスリリースは<a href="https://www.univ.gakushuin.ac.jp/news/f5b455118eabbfa31f900d42d51021547bc73dce.pdf" target="_blank" rel="noopener">こちら</a>。
-  comment_en: |-
-    We revealed how cyanobacteria use "threads" to move like Spider-Man. Thin filaments called type IV pili can extend and retract, driven by a motor at their base. What's more, the cells control this extension and retraction cleverly to move toward light, or conversely to move away from strong light. We also discuss how this works. Nils, Annegret and colleagues reported how cyanobacteria sense the direction of light just ahead of us, but their <a href="https://elifesciences.org/articles/12620" target="_blank" rel="noopener">paper</a> is also very interesting. The cyanobacterial mutants were kindly provided by Masuda at Tokyo Tech. Thank you. Only Nishizaka and I are authors on this paper. Four years after moving to the Nishizaka Lab at Gakushuin University, I finally had a solid result. I remember being really happy. The press release is <a href="https://www.univ.gakushuin.ac.jp/news/f5b455118eabbfa31f900d42d51021547bc73dce.pdf" target="_blank" rel="noopener">here</a>.
+  url: https://www.pnas.org/content/114/25/6593
+  comment: <p>シアノバクテリアが「糸」を使ってスパイダーマンのように動く仕組みを明らかにしました。IV型線毛という細い繊維構造は根元のモーターで伸びたり縮んだりすることができます。しかも、この伸縮を上手に制御して、光に向かって動いたり、逆に、強い光からは逃げるような動きを示します。この仕組みについても言及しています。シアノバクテリアが光の向きを認識する仕組みについては、一歩先にNilsとAnnegretさんたちが報告しました。けれど、その<a
+    target="_blank" rel="noopener"
+    href="https://elifesciences.org/articles/12620">論文</a>も面白いです。
+    シアノバクテリアの変異株は東工大の増田さんからいただきました。ありがとうございます。この論文は、私と西坂さんだけしか名前がありません。学習院大学
+    西坂研にうつってから4年経って、しっかりとした成果がでました。とても嬉しかったのを覚えています。プレスリリースは<a target="_blank"
+    rel="noopener"
+    href="https://www.univ.gakushuin.ac.jp/news/f5b455118eabbfa31f900d42d51021547bc73dce.pdf">こちら</a>。</p>
+  comment_en: <p>We revealed how cyanobacteria use "threads" to move like
+    Spider-Man. Thin filaments called type IV pili can extend and retract,
+    driven by a motor at their base. What's more, the cells control this
+    extension and retraction cleverly to move toward light, or conversely to
+    move away from strong light. We also discuss how this works. Nils, Annegret
+    and colleagues reported how cyanobacteria sense the direction of light just
+    ahead of us, but their <a target="_blank" rel="noopener"
+    href="https://elifesciences.org/articles/12620">paper</a> is also very
+    interesting. The cyanobacterial mutants were kindly provided by Masuda at
+    Tokyo Tech. Thank you. Only Nishizaka and I are authors on this paper. Four
+    years after moving to the Nishizaka Lab at Gakushuin University, I finally
+    had a solid result. I remember being really happy. The press release is <a
+    target="_blank" rel="noopener"
+    href="https://www.univ.gakushuin.ac.jp/news/f5b455118eabbfa31f900d42d51021547bc73dce.pdf">here</a>.</p>
 - year: 2015
-  authors: "Nakane D†, Kenri T†, Matsuo L and Miyata M*"
-  title: "Systematic structural analyses of attachment organelle in <i>Mycoplasma pneumoniae</i>"
+  authors: Nakane D†, Kenri T†, Matsuo L and Miyata M*
+  title: Systematic structural analyses of attachment organelle in <i>Mycoplasma
+    pneumoniae</i>
   journal: "PLOS Pathogens 11: e1005299"
-  url: "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1005299"
-  comment: |-
-    ヒト肺炎の病原菌の運動装置がどのようなタンパク質から構成され、ナノレベルで配置しているのか、詳しく調べました。マイコプラズマは泳ぐことはできません。代わりに、宿主やガラスの表面にはりついて動くことができます。これを滑走運動といいます。滑走運動はマイコプラズマの病原性発揮にも重要であると考えられています。何十種類もの変異株を解析しましたが、それらはすべて国立感染症研究所の見理さんがつくってくれました。そういえば、感染研のある武蔵村山も近いですね。見理さん、遊びに来てください。
-  comment_en: |-
-    We studied in detail which proteins make up the motility machinery of the bacterium that causes human pneumonia, and how they are arranged at the nanoscale. Mycoplasma cannot swim. Instead, it moves while stuck to the surface of host cells or glass. This is called gliding motility, and it is thought to be important for Mycoplasma's ability to cause disease. We analyzed dozens of mutants, all of which were made by Kenri at the National Institute of Infectious Diseases. Come to think of it, Musashimurayama, where the institute is located, is also close by. Kenri, please come and visit us.
+  url: https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1005299
+  comment: <p>ヒト肺炎の病原菌の運動装置がどのようなタンパク質から構成され、ナノレベルで配置しているのか、詳しく調べました。マイコプラズマは泳ぐことはできません。代わりに、宿主やガラスの表面にはりついて動くことができます。これを滑走運動といいます。滑走運動はマイコプラズマの病原性発揮にも重要であると考えられています。何十種類もの変異株を解析しましたが、それらはすべて国立感染症研究所の見理さんがつくってくれました。そういえば、感染研のある武蔵村山も近いですね。見理さん、遊びに来てください。</p>
+  comment_en: <p>We studied in detail which proteins make up the motility
+    machinery of the bacterium that causes human pneumonia, and how they are
+    arranged at the nanoscale. Mycoplasma cannot swim. Instead, it moves while
+    stuck to the surface of host cells or glass. This is called gliding
+    motility, and it is thought to be important for Mycoplasma's ability to
+    cause disease. We analyzed dozens of mutants, all of which were made by
+    Kenri at the National Institute of Infectious Diseases. Come to think of it,
+    Musashimurayama, where the institute is located, is also close by. Kenri,
+    please come and visit us.</p>
 - year: 2014
-  authors: "Kinosita Y†, Nakane D†, Sugawa M, Masaike T, Mizutani K, Miyata M*, Nishizaka T*"
-  title: "Unitary step of gliding machinery in <i>Mycoplasma mobile</i>"
+  authors: Kinosita Y†, Nakane D†, Sugawa M, Masaike T, Mizutani K, Miyata M*,
+    Nishizaka T*
+  title: Unitary step of gliding machinery in <i>Mycoplasma mobile</i>
   journal: "Proc. Natl. Acad. Sci. USA 111: 8601-06"
-  url: "https://www.pnas.org/content/111/23/8601"
-  comment: |-
-    最小の生物、マイコプラズマが一定距離の推進と停止を繰り返すことで進むことを明らかにしました。その距離はたった 70 nm （ナノメートル）ほどです。最小生物にしては随分と大きな歩幅をもっています。きっと「あし」のようなものを持って動いているのだと思われます。詳しいことは私の出身研究室である大阪市立大学の宮田先生の<a href="http://www.sci.osaka-cu.ac.jp/~miyata/" target="_blank" rel="noopener">サイト</a>をみてください。この研究は私が大学院生のときに始めたものですが、学習院大学所属時の学生 木下くんが「<a href="https://www.pnas.org/content/102/36/12754" target="_blank" rel="noopener">ゴースト</a>」という実験系を使って、大きく発展してくれました。彼は育志賞も受賞しました。
-  comment_en: |-
-    We showed that Mycoplasma, the smallest living organism, moves by repeating cycles of moving a fixed distance and then stopping. That distance is only about 70 nm (nanometers). That's quite a big step for the smallest organism. It probably moves using something like "legs". For details, please see the <a href="http://www.sci.osaka-cu.ac.jp/~miyata/" target="_blank" rel="noopener">website</a> of Prof. Miyata at Osaka City University, the lab where I did my graduate work. I started this research as a graduate student, and Kinoshita, a student in my group when I was at Gakushuin University, developed it much further using an experimental system called the "<a href="https://www.pnas.org/content/102/36/12754" target="_blank" rel="noopener">ghost</a>". He also received the JSPS Ikushi Prize.
+  url: https://www.pnas.org/content/111/23/8601
+  comment: <p>最小の生物、マイコプラズマが一定距離の推進と停止を繰り返すことで進むことを明らかにしました。その距離はたった 70 nm
+    （ナノメートル）ほどです。最小生物にしては随分と大きな歩幅をもっています。きっと「あし」のようなものを持って動いているのだと思われます。詳しいことは私の出身研究室である大阪市立大学の宮田先生の<a
+    target="_blank" rel="noopener"
+    href="http://www.sci.osaka-cu.ac.jp/~miyata/">サイト</a>をみてください。この研究は私が大学院生のときに始めたものですが、学習院大学所属時の学生
+    木下くんが「<a target="_blank" rel="noopener"
+    href="https://www.pnas.org/content/102/36/12754">ゴースト</a>」という実験系を使って、大きく発展してくれました。彼は育志賞も受賞しました。</p>
+  comment_en: <p>We showed that Mycoplasma, the smallest living organism, moves by
+    repeating cycles of moving a fixed distance and then stopping. That distance
+    is only about 70 nm (nanometers). That's quite a big step for the smallest
+    organism. It probably moves using something like "legs". For details, please
+    see the <a target="_blank" rel="noopener"
+    href="http://www.sci.osaka-cu.ac.jp/~miyata/">website</a> of Prof. Miyata at
+    Osaka City University, the lab where I did my graduate work. I started this
+    research as a graduate student, and Kinoshita, a student in my group when I
+    was at Gakushuin University, developed it much further using an experimental
+    system called the "<a target="_blank" rel="noopener"
+    href="https://www.pnas.org/content/102/36/12754">ghost</a>". He also
+    received the JSPS Ikushi Prize.</p>
 - year: 2013
-  authors: "Nakane D, Sato K, Wada H, McBride MJ* and Nakayama K*"
-  title: "Helical flow of surface protein required for bacterial gliding motility"
+  authors: Nakane D, Sato K, Wada H, McBride MJ* and Nakayama K*
+  title: Helical flow of surface protein required for bacterial gliding motility
   journal: "Proc. Natl. Acad. Sci. USA 110: 11145-11150"
-  url: "https://www.pnas.org/content/110/27/11145"
-  comment: |-
-    フラボバクテリウムという細菌の動く仕組みを明らかにしました。なんと、自身の表面タンパク質を膜表面でぐるぐると高速で流れるように動かすことで表面を這うように推進しているようです。戦車のキャタピラを彷彿とさせます。これは長崎大学でポスドクをしていたときの仕事です。そのときのボスの中山先生と研究室のみなさんには随分とお世話になりました。変異株や抗体などのリソースは Mark からもらいました。ありがとうございます。彼のラボに2か月くらい滞在したときに、この論文のきっかけとなる成果を得ました。夜に実験したときにうまくいったのですが、あの瞬間は忘れられません。
-  comment_en: |-
-    We revealed how the bacterium Flavobacterium moves. Remarkably, it seems to crawl over surfaces by making its own surface proteins flow rapidly around and around on the membrane surface. It reminds me of the tracks on a tank. This was work from my postdoc at Nagasaki University. My boss there, Prof. Nakayama, and everyone in the lab took such good care of me. Resources such as mutants and antibodies came from Mark. Thank you. While I stayed in his lab for about two months, I got the result that led to this paper. The experiment finally worked late one night, and I will never forget that moment.
+  url: https://www.pnas.org/content/110/27/11145
+  comment: <p>フラボバクテリウムという細菌の動く仕組みを明らかにしました。なんと、自身の表面タンパク質を膜表面でぐるぐると高速で流れるように動かすことで表面を這うように推進しているようです。戦車のキャタピラを彷彿とさせます。これは長崎大学でポスドクをしていたときの仕事です。そのときのボスの中山先生と研究室のみなさんには随分とお世話になりました。変異株や抗体などのリソースは
+    Mark
+    からもらいました。ありがとうございます。彼のラボに2か月くらい滞在したときに、この論文のきっかけとなる成果を得ました。夜に実験したときにうまくいったのですが、あの瞬間は忘れられません。</p>
+  comment_en: <p>We revealed how the bacterium Flavobacterium moves. Remarkably,
+    it seems to crawl over surfaces by making its own surface proteins flow
+    rapidly around and around on the membrane surface. It reminds me of the
+    tracks on a tank. This was work from my postdoc at Nagasaki University. My
+    boss there, Prof. Nakayama, and everyone in the lab took such good care of
+    me. Resources such as mutants and antibodies came from Mark. Thank you.
+    While I stayed in his lab for about two months, I got the result that led to
+    this paper. The experiment finally worked late one night, and I will never
+    forget that moment.</p>
 - year: 2007
-  authors: "Nakane D and Miyata M*"
-  title: "Cytoskeletal \"jellyfish\" structure of <i>Mycoplasma mobile</i>"
+  authors: Nakane D and Miyata M*
+  title: Cytoskeletal "jellyfish" structure of <i>Mycoplasma mobile</i>
   journal: "Proc. Natl. Acad. Sci. USA 104: 19518-19523"
-  url: "https://www.pnas.org/content/104/49/19518"
-  comment: |-
-    マイコプラズマが「くらげ」のような形の細胞骨格を持っていることを明らかにしました。その形だけでなく、その構成タンパク質もユニークです。ATP合成酵素の F1 とよく似たタンパク質からできています。大阪市立大学の宮田研で大学院生をしていたときの論文です。ドキドキしながら海外で口頭発表したのを覚えています。大学院生のときに面白い成果を得ることができたことはとても幸運でした。自分自身が研究者になったのはこのような経験があったからだと思います。自分の研究室ができたので、新しく配属される学生さんにもこのような経験ができるよう、素敵な研究環境を整えたいと思います。
-  comment_en: |-
-    We showed that Mycoplasma has a cytoskeleton shaped like a "jellyfish". Not only its shape but also its component proteins are unique: they are made of proteins closely resembling F1 of ATP synthase. This paper is from my time as a graduate student in the Miyata Lab at Osaka City University. I remember giving an oral presentation abroad with my heart pounding. I was very lucky to get such an interesting result as a graduate student. I think experiences like this are why I became a researcher. Now that I have my own lab, I want to build a great research environment so that new students joining the lab can have experiences like this too.
+  url: https://www.pnas.org/content/104/49/19518
+  comment: <p>マイコプラズマが「くらげ」のような形の細胞骨格を持っていることを明らかにしました。その形だけでなく、その構成タンパク質もユニークです。ATP合成酵素の
+    F1
+    とよく似たタンパク質からできています。大阪市立大学の宮田研で大学院生をしていたときの論文です。ドキドキしながら海外で口頭発表したのを覚えています。大学院生のときに面白い成果を得ることができたことはとても幸運でした。自分自身が研究者になったのはこのような経験があったからだと思います。自分の研究室ができたので、新しく配属される学生さんにもこのような経験ができるよう、素敵な研究環境を整えたいと思います。</p>
+  comment_en: '<p>We showed that Mycoplasma has a cytoskeleton shaped like a
+    "jellyfish". Not only its shape but also its component proteins are unique:
+    they are made of proteins closely resembling F1 of ATP synthase. This paper
+    is from my time as a graduate student in the Miyata Lab at Osaka City
+    University. I remember giving an oral presentation abroad with my heart
+    pounding. I was very lucky to get such an interesting result as a graduate
+    student. I think experiences like this are why I became a researcher. Now
+    that I have my own lab, I want to build a great research environment so that
+    new students joining the lab can have experiences like this too.</p>'
