@@ -1,431 +1,575 @@
-# 発表論文リスト。新しい論文はこのリストのどこに追加しても、年ごとに自動で並びます。
-# category: original（原著論文）または review（総説・解説・書籍など）
-# authors: Nakane D は自動で太字になります。研究室の学生は <u>Uemura NA</u> のように下線にできます。
-
 - category: original
   year: 2026
-  authors: "<u>Uemura NA</u>, Ishida T, Sowa Y, Jang MS, Tezuka T*, Nakane D*, Ohnishi Y"
-  title: "Body-wrapping anterior flagella drive ultrafast swimming in bacterial zoospores"
-  journal: "bioRxiv 2026.03.29.715058"
-  url: "https://doi.org/10.64898/2026.03.29.715058"
+  authors: <u>Shimada YY</u>, <u>Uemura NA</u>, <u>Yoshioka A</u>, Nakane D*, Kan T*
+  title: Cell-scale confinement reorders bacterial speed rankings
+  journal: bioRxiv
   preprint: true
 - category: original
   year: 2026
-  authors: "Kotaka Y*, <u>Uemura NA</u>, Iwase T, Lee K, Ishijima N, Nakane D, Kobayashi H, Kataoka M, Akeda Y, Iyoda S"
-  title: "Trimeric autotransporter adhesins driving chain-like adhesion diversify surface colonization strategies in Shiga toxin-producing <i>Escherichia coli</i>"
+  authors: <u>Uemura NA</u>, Ishida T, Sowa Y, Jang MS, Tezuka T*, Nakane D*, Ohnishi Y
+  title: Body-wrapping anterior flagella drive ultrafast swimming in bacterial
+    zoospores
+  journal: bioRxiv 2026.03.29.715058
+  url: https://doi.org/10.64898/2026.03.29.715058
+  preprint: true
+- category: original
+  year: 2026
+  authors: Kotaka Y*, <u>Uemura NA</u>, Iwase T, Lee K, Ishijima N, Nakane D,
+    Kobayashi H, Kataoka M, Akeda Y, Iyoda S
+  title: Trimeric autotransporter adhesins driving chain-like adhesion diversify
+    surface colonization strategies in Shiga toxin-producing <i>Escherichia
+    coli</i>
   journal: "Nature Communications 17: 9350"
-  url: "https://doi.org/10.1038/s41467-026-76304-x"
+  url: https://doi.org/10.1038/s41467-026-76304-x
+  preprint: false
 - category: original
   year: 2026
-  authors: "Sugiyama T, Kojima T, <u>Uemura NA</u>, Nakane D, Dohra H, Inoue D*, Ike M"
-  title: "Comparison of predatory phenotypes and genotypes between <i>Bdellovibrio</i> sp. BIS2 and <i>Bacteriovorax</i> sp. HI3 isolated from the same freshwater environment"
+  authors: Sugiyama T, Kojima T, <u>Uemura NA</u>, Nakane D, Dohra H, Inoue D*, Ike M
+  title: Comparison of predatory phenotypes and genotypes between
+    <i>Bdellovibrio</i> sp. BIS2 and <i>Bacteriovorax</i> sp. HI3 isolated from
+    the same freshwater environment
   journal: "Environmental Microbiology 28: e70243"
-  url: "https://doi.org/10.1111/1462-2920.70243"
+  url: https://doi.org/10.1111/1462-2920.70243
+  preprint: false
 - category: original
   year: 2026
-  authors: "Itoh H*, Shimoji H, Nakane D, Jang S, Kikuchi Y*"
-  title: "Soil pH as an external filter shaping insect–microbe gut symbiosis"
+  authors: Itoh H*, Shimoji H, Nakane D, Jang S, Kikuchi Y*
+  title: Soil pH as an external filter shaping insect–microbe gut symbiosis
   journal: "Microbiome 14: 129"
-  url: "https://doi.org/10.1186/s40168-026-02402-z"
+  url: https://doi.org/10.1186/s40168-026-02402-z
+  preprint: false
 - category: original
   year: 2026
-  authors: "Kataoka T, Yoneda T, Nakane D, Wada H*"
-  title: "Bacteria harness torque-induced buckling instability for flagellar wrapping"
+  authors: Kataoka T, Yoneda T, Nakane D, Wada H*
+  title: Bacteria harness torque-induced buckling instability for flagellar wrapping
   journal: "Physical Review E 113: 054402"
-  url: "https://journals.aps.org/pre/abstract/10.1103/ktss-zp41"
+  url: https://journals.aps.org/pre/abstract/10.1103/ktss-zp41
+  preprint: false
 - category: original
   year: 2026
-  authors: "Ishigami K*, Jang S, <u>Yoshioka A</u>, Morimura H, Yokota A, Moulin L, Lirette AO, Takeshita K, Nakane D, Mergaert P, Kikuchi Y*"
-  title: "A Trojan horse pathogen breaking through partner-choice barriers in the insect gut"
+  authors: Ishigami K*, Jang S, <u>Yoshioka A</u>, Morimura H, Yokota A, Moulin L,
+    Lirette AO, Takeshita K, Nakane D, Mergaert P, Kikuchi Y*
+  title: A Trojan horse pathogen breaking through partner-choice barriers in the
+    insect gut
   journal: "Proc. Natl. Acad. Sci. USA 123: e2533244123"
-  url: "https://doi.org/10.1073/pnas.2533244123"
+  url: https://doi.org/10.1073/pnas.2533244123
+  preprint: false
 - category: original
   year: 2026
-  authors: "<u>Yoshioka A</u>, <u>Shimada YY</u>, Omori T, <u>Uemura NA</u>, Takeshita K, Ishigami K, Morimura H, Furubayashi M, Kan T*, Wada H*, Kikuchi Y*, Nakane D*"
-  title: "Bacteria break through one-micrometer-square passages by flagellar wrapping"
+  authors: <u>Yoshioka A</u>, <u>Shimada YY</u>, Omori T, <u>Uemura NA</u>,
+    Takeshita K, Ishigami K, Morimura H, Furubayashi M, Kan T*, Wada H*, Kikuchi
+    Y*, Nakane D*
+  title: Bacteria break through one-micrometer-square passages by flagellar wrapping
   journal: "Nature Communications 17: 713"
-  url: "https://doi.org/10.1038/s41467-025-67507-9"
+  url: https://doi.org/10.1038/s41467-025-67507-9
+  preprint: false
 - category: original
   year: 2025
-  authors: "<u>Uemura NA</u>, Chiba N, Morikawa R, Tamakoshi M, <b>Nakane D</b>*"
-  title: "Rapid water flow triggers long-distance positive rheotaxis for thermophilic bacteria"
+  authors: <u>Uemura NA</u>, Chiba N, Morikawa R, Tamakoshi M, <b>Nakane D</b>*
+  title: Rapid water flow triggers long-distance positive rheotaxis for
+    thermophilic bacteria
   journal: "The ISME Journal 19: wraf164"
-  url: "https://doi.org/10.1093/ismejo/wraf164"
+  url: https://doi.org/10.1093/ismejo/wraf164
+  preprint: false
 - category: original
   year: 2025
-  authors: "Suzuki K, Nakane D, Mizutani M, Nishizaka T*"
-  title: "Gliding direction of <i>Mycoplasma mobile</i> correlates with the curved configuration of its cell shape"
+  authors: Suzuki K, Nakane D, Mizutani M, Nishizaka T*
+  title: Gliding direction of <i>Mycoplasma mobile</i> correlates with the curved
+    configuration of its cell shape
   journal: "Biophysics and Physicobiology, 22: e220006"
-  url: "https://doi.org/10.2142/biophysico.bppb-v22.0006"
+  url: https://doi.org/10.2142/biophysico.bppb-v22.0006
+  preprint: false
 - category: original
   year: 2024
-  authors: "Cohen EJ*, Drobnič T, Ribardo DA, Yoshioka A, Umrekar T, Guo X, Fernandez J, Brock E, Wilson L, Nakane D, Hendrixson DR, Beeby M"
-  title: "Evolution of a large periplasmic disk in <i>Campylobacterota</i> flagella facilitated efficient motility alongside autoagglutination"
+  authors: Cohen EJ*, Drobnič T, Ribardo DA, Yoshioka A, Umrekar T, Guo X,
+    Fernandez J, Brock E, Wilson L, Nakane D, Hendrixson DR, Beeby M
+  title: Evolution of a large periplasmic disk in <i>Campylobacterota</i> flagella
+    facilitated efficient motility alongside autoagglutination
   journal: "Developmental Cell 59: 3306-3321.e5"
-  url: "https://doi.org/10.1016/j.devcel.2024.09.008"
+  url: https://doi.org/10.1016/j.devcel.2024.09.008
+  preprint: false
 - category: original
   year: 2024
-  authors: "Fukushima M, Toyonaga T, Tahara YO, Nakane D, Miyata M*"
-  title: "Internal structure of Mycoplasma mobile gliding machinery analyzed by negative staining electron tomography"
+  authors: Fukushima M, Toyonaga T, Tahara YO, Nakane D, Miyata M*
+  title: Internal structure of Mycoplasma mobile gliding machinery analyzed by
+    negative staining electron tomography
   journal: "Biophysics and Physicobiology 21: e210015"
-  url: "https://doi.org/10.2142/biophysico.bppb-v21.0015"
+  url: https://doi.org/10.2142/biophysico.bppb-v21.0015
+  preprint: false
 - category: original
   year: 2024
-  authors: "Kato S*, Tahara Y, Nishimura Y, Uematsu K, Arai T, Nakane D, Ihara A, Nishizaka T, Iwasaki W, Itoh T, Makoto M, Ohkuma M"
-  title: "Cell surface architecture of the cultivated DPANN archaeon <i>Nanobdella aerobiophila</i>"
-  journal: "Journal of Bacteriology 206:e00351-23"
-  url: "https://doi.org/10.1128/jb.00351-23"
+  authors: Kato S*, Tahara Y, Nishimura Y, Uematsu K, Arai T, Nakane D, Ihara A,
+    Nishizaka T, Iwasaki W, Itoh T, Makoto M, Ohkuma M
+  title: Cell surface architecture of the cultivated DPANN archaeon <i>Nanobdella
+    aerobiophila</i>
+  journal: Journal of Bacteriology 206:e00351-23
+  url: https://doi.org/10.1128/jb.00351-23
+  preprint: false
 - category: original
   year: 2023
-  authors: "Shibata S*, Tahara YO, Katayama E, Kawamoto A, Kato T, Zhu Y, Nakane D, Namba K, Miyata M, McBride MJ, Nakayama K*"
-  title: "Filamentous structures in the cell envelope associated with Bacteroidetes gliding machinery"
+  authors: Shibata S*, Tahara YO, Katayama E, Kawamoto A, Kato T, Zhu Y, Nakane D,
+    Namba K, Miyata M, McBride MJ, Nakayama K*
+  title: Filamentous structures in the cell envelope associated with Bacteroidetes
+    gliding machinery
   journal: "Communications Biology 5: 94"
-  url: "https://www.nature.com/articles/s42003-023-04472-3"
+  url: https://www.nature.com/articles/s42003-023-04472-3
+  preprint: false
 - category: original
   year: 2022
-  authors: "Makino T, Nakane D, Tanaka M*"
-  title: "Self-assembled micro-sized hexagons built from short DNA in a crowded environment"
-  journal: "ChemBioChem 23:e202200360"
-  url: "https://doi.org/10.1002/cbic.202200360"
+  authors: Makino T, Nakane D, Tanaka M*
+  title: Self-assembled micro-sized hexagons built from short DNA in a crowded
+    environment
+  journal: ChemBioChem 23:e202200360
+  url: https://doi.org/10.1002/cbic.202200360
+  preprint: false
 - category: original
   year: 2022
-  authors: "Nakane D†*, Kabata Y†, Nishizaka T*"
-  title: "Cell shape controls rheotaxis in small parasitic bacteria"
+  authors: Nakane D†*, Kabata Y†, Nishizaka T*
+  title: Cell shape controls rheotaxis in small parasitic bacteria
   journal: "PLOS Pathogens 18: e1010648"
-  url: "https://doi.org/10.1371/journal.ppat.1010648"
+  url: https://doi.org/10.1371/journal.ppat.1010648
+  preprint: false
 - category: original
   year: 2022
-  authors: "Nakane D†*, Enomoto G†*, Bähre H, Hirose Y, Wilde A*, Nishizaka T"
-  title: "<i>Thermosynechococcus</i> switches the direction of phototaxis by a c-di-GMP dependent process with high spatial resolution"
+  authors: Nakane D†*, Enomoto G†*, Bähre H, Hirose Y, Wilde A*, Nishizaka T
+  title: <i>Thermosynechococcus</i> switches the direction of phototaxis by a
+    c-di-GMP dependent process with high spatial resolution
   journal: "eLife 11: e73405"
-  url: "https://elifesciences.org/articles/73405"
+  url: https://elifesciences.org/articles/73405
+  preprint: false
 - category: original
   year: 2021
-  authors: "Nakane D†*, Murata K†, Kenri T†, Shibayama K, Nishizaka T*"
-  title: "Molecular ruler of the attachment organelle in <i>Mycoplasma pneumoniae</i>"
+  authors: Nakane D†*, Murata K†, Kenri T†, Shibayama K, Nishizaka T*
+  title: Molecular ruler of the attachment organelle in <i>Mycoplasma pneumoniae</i>
   journal: "PLOS Pathogens 17: e1009621"
-  url: "https://doi.org/10.1371/journal.ppat.1009621"
+  url: https://doi.org/10.1371/journal.ppat.1009621
+  preprint: false
 - category: original
   year: 2021
-  authors: "Nakane D*, Odaka S, Suzuki S, Nishizaka T*"
-  title: "Large-scale vortices with dynamic rotation emerged from monolayer collective motion of gliding <i>Flavobacteria</i>"
+  authors: Nakane D*, Odaka S, Suzuki S, Nishizaka T*
+  title: Large-scale vortices with dynamic rotation emerged from monolayer
+    collective motion of gliding <i>Flavobacteria</i>
   journal: "Journal of Bacteriology 203: e00073-21"
-  url: "https://doi.org/10.1128/JB.00073-21"
+  url: https://doi.org/10.1128/JB.00073-21
+  preprint: false
 - category: original
   year: 2020
-  authors: "Cohen EJ†, Nakane D†, Kabata Y, Hendrixson DR, Nishizaka T, Beeby M*"
-  title: "<i>Campylobacter jejuni</i> motility integrates specialized cell shape, flagellar filament, and motor, to coordinate action of its opposed flagella"
+  authors: Cohen EJ†, Nakane D†, Kabata Y, Hendrixson DR, Nishizaka T, Beeby M*
+  title: <i>Campylobacter jejuni</i> motility integrates specialized cell shape,
+    flagellar filament, and motor, to coordinate action of its opposed flagella
   journal: "PLOS Pathogens 16: 1008620"
-  url: "https://doi.org/10.1371/journal.ppat.1008620"
+  url: https://doi.org/10.1371/journal.ppat.1008620
+  preprint: false
 - category: original
   year: 2020
-  authors: "Nakane D†*, Ito T†, and Nishizaka T*"
-  title: "Co-existence of two chiral helices produces kink translation in <i>Spiroplasma</i> swimming"
+  authors: Nakane D†*, Ito T†, and Nishizaka T*
+  title: Co-existence of two chiral helices produces kink translation in
+    <i>Spiroplasma</i> swimming
   journal: "Journal of Bacteriology 202: e00735-19"
-  url: "https://doi.org/10.1128/JB.00735-19"
+  url: https://doi.org/10.1128/JB.00735-19
+  preprint: false
 - category: original
   year: 2019
-  authors: "Nishikawa MS†, Nakane D†, Toyonaga T, Kawamoto A, Kato T, Namba K, Miyata M*"
-  title: "Refined mechanism of Mycoplasma mobile gliding based on structure, ATPase activity, and sialic acid binding of machinery"
+  authors: Nishikawa MS†, Nakane D†, Toyonaga T, Kawamoto A, Kato T, Namba K, Miyata M*
+  title: Refined mechanism of Mycoplasma mobile gliding based on structure, ATPase
+    activity, and sialic acid binding of machinery
   journal: "mBio 10: e02846-19"
-  url: "https://doi.org/10.1128/mBio.02846-19"
+  url: https://doi.org/10.1128/mBio.02846-19
+  preprint: false
 - category: original
   year: 2019
-  authors: "Iwata S, Kinosita Y, Uchida N, Nakane D*, Nishizaka T*"
-  title: "Motor torque measurement of Halobacterium salinarum archaellar suggests a general model for ATP-driven rotary motors"
+  authors: Iwata S, Kinosita Y, Uchida N, Nakane D*, Nishizaka T*
+  title: Motor torque measurement of Halobacterium salinarum archaellar suggests a
+    general model for ATP-driven rotary motors
   journal: "Communications Biology 2: 199"
-  url: "https://doi.org/10.1038/s42003-019-0422-6"
+  url: https://doi.org/10.1038/s42003-019-0422-6
+  preprint: false
 - category: original
   year: 2019
-  authors: "Kimura T, Tezuka T*, Nakane D, Nishizaka T, Aizawa SI, and Ohnishi Y*"
-  title: "Characterization of zoospore type IV pili in <i>Actinoplanes missouriensis</i>"
+  authors: Kimura T, Tezuka T*, Nakane D, Nishizaka T, Aizawa SI, and Ohnishi Y*
+  title: Characterization of zoospore type IV pili in <i>Actinoplanes
+    missouriensis</i>
   journal: "Journal of Bacteriology 201: e00746-18"
-  url: "https://doi.org/10.1128/JB.00746-18"
+  url: https://doi.org/10.1128/JB.00746-18
+  preprint: false
 - category: original
   year: 2019
-  authors: "Naito T, Masaike T*, Nakane D, Sugawa M, Okada K, Nishizaka T*"
-  title: "Single-molecule pull-out manipulation of the shaft of the rotary motor F1-ATPase"
+  authors: Naito T, Masaike T*, Nakane D, Sugawa M, Okada K, Nishizaka T*
+  title: Single-molecule pull-out manipulation of the shaft of the rotary motor
+    F1-ATPase
   journal: "Scientific Reports 9: 7451"
-  url: "https://doi.org/10.1038/s41598-019-43903-2"
+  url: https://doi.org/10.1038/s41598-019-43903-2
+  preprint: false
 - category: original
   year: 2018
-  authors: "Katoh TA, Ikegami K, Uchida N, Iwase T, Nakane D, Masaike T, Setou M, Nishizaka T*"
-  title: "Three-dimensional tracking of microbeads attached to the tip of single isolated tracheal cilia beating under external load"
+  authors: Katoh TA, Ikegami K, Uchida N, Iwase T, Nakane D, Masaike T, Setou M,
+    Nishizaka T*
+  title: Three-dimensional tracking of microbeads attached to the tip of single
+    isolated tracheal cilia beating under external load
   journal: "Scientific Reports 8: 15562"
-  url: "https://doi.org/10.1038/s41598-018-33846-5"
+  url: https://doi.org/10.1038/s41598-018-33846-5
+  preprint: false
 - category: original
   year: 2018
-  authors: "Sato K*, Kakuda S, Yukitake H, Kondo Y, Shoji M, Takebe K, Narita Y, Naito M, Nakane D, Abiko Y, Hiratsuka K, Suzuki M, Nakayama K"
-  title: "Immunoglobulin-like domains of the cargo proteins are essential for protein stability during secretion by the type IX secretion system"
+  authors: Sato K*, Kakuda S, Yukitake H, Kondo Y, Shoji M, Takebe K, Narita Y,
+    Naito M, Nakane D, Abiko Y, Hiratsuka K, Suzuki M, Nakayama K
+  title: Immunoglobulin-like domains of the cargo proteins are essential for
+    protein stability during secretion by the type IX secretion system
   journal: "Molecular Microbiology 110: 64-81"
-  url: "https://doi.org/10.1111/mmi.14083"
+  url: https://doi.org/10.1111/mmi.14083
+  preprint: false
 - category: original
   year: 2018
-  authors: "Imamura K, Sato K, Narita Y, Kondo Y, Nakane D, Naito M, Fujiwara T, Nakayama K*"
-  title: "Identification of a major glucose transporter in <i>Flavobacterium johnsoniae</i>: Inhibition of <i>F. johnsoniae</i> colony spreading by glucose uptake"
+  authors: Imamura K, Sato K, Narita Y, Kondo Y, Nakane D, Naito M, Fujiwara T,
+    Nakayama K*
+  title: "Identification of a major glucose transporter in <i>Flavobacterium
+    johnsoniae</i>: Inhibition of <i>F. johnsoniae</i> colony spreading by
+    glucose uptake"
   journal: "Microbiology and Immunology 62: 507-516"
-  url: "https://doi.org/10.1111/1348-0421.12633"
+  url: https://doi.org/10.1111/1348-0421.12633
+  preprint: false
 - category: original
   year: 2018
-  authors: "Kinosita Y*, Kikuchi Y*, Mikami N, Nakane D, and Nishizaka T"
-  title: "Unforeseen swimming and gliding mode of an insect gut symbiont, <i>Burkholderia </i>sp. RPE64, with wrapping of the flagella around its cell body"
+  authors: Kinosita Y*, Kikuchi Y*, Mikami N, Nakane D, and Nishizaka T
+  title: Unforeseen swimming and gliding mode of an insect gut symbiont,
+    <i>Burkholderia </i>sp. RPE64, with wrapping of the flagella around its cell
+    body
   journal: "The ISME Journal 12: 838-848"
-  url: "https://doi.org/10.1038/s41396-017-0010-z"
+  url: https://doi.org/10.1038/s41396-017-0010-z
+  preprint: false
 - category: original
   year: 2017
-  authors: "Nakane D, and Nishizaka T*"
-  title: "Asymmetric distribution of type IV pili triggered by directional light in unicellular cyanobacteria"
+  authors: Nakane D, and Nishizaka T*
+  title: Asymmetric distribution of type IV pili triggered by directional light in
+    unicellular cyanobacteria
   journal: "Proc. Natl. Acad. Sci. USA 114: 6593-98"
-  url: "https://doi.org/10.1073/pnas.1702395114"
+  url: https://doi.org/10.1073/pnas.1702395114
+  preprint: false
 - category: original
   year: 2017
-  authors: "Liu P, Zheng H, Meng Q, Terahara N, Gu W, Wang S, Zhao G, Nakane D, Wang W, Miyata M*"
-  title: "Chemotaxis without conventional two-component system, based on cell polarity and aerobic conditions in helicity-switching swimming of <i>Spiroplasma eriocheiris</i>"
+  authors: Liu P, Zheng H, Meng Q, Terahara N, Gu W, Wang S, Zhao G, Nakane D,
+    Wang W, Miyata M*
+  title: Chemotaxis without conventional two-component system, based on cell
+    polarity and aerobic conditions in helicity-switching swimming of
+    <i>Spiroplasma eriocheiris</i>
   journal: "Frontiers in Microbiology 8: 58"
-  url: "https://doi.org/10.3389/fmicb.2017.00058"
+  url: https://doi.org/10.3389/fmicb.2017.00058
+  preprint: false
 - category: original
   year: 2016
-  authors: "Kinosita Y, Uchida N*, Nakane D and Nishizaka T*"
-  title: "Direct observation of rotation and steps of the archaellum of swimming halophilic archaea"
+  authors: Kinosita Y, Uchida N*, Nakane D and Nishizaka T*
+  title: Direct observation of rotation and steps of the archaellum of swimming
+    halophilic archaea
   journal: "Nature Microbiology 1: 16148"
-  url: "https://doi.org/10.1038/nmicrobiol.2016.148"
+  url: https://doi.org/10.1038/nmicrobiol.2016.148
+  preprint: false
 - category: original
   year: 2016
-  authors: "Tanaka A, Nakane D, Mizutani M, Nishizaka T and Miyata M*"
-  title: "Directed binding of gliding bacterium, <i>Mycoplasma mobile</i>, shown by detachment force and bond lifetime"
+  authors: Tanaka A, Nakane D, Mizutani M, Nishizaka T and Miyata M*
+  title: Directed binding of gliding bacterium, <i>Mycoplasma mobile</i>, shown by
+    detachment force and bond lifetime
   journal: "mBio 7: e00455-16"
-  url: "https://doi.org/10.1128/mBio.00455-16"
+  url: https://doi.org/10.1128/mBio.00455-16
+  preprint: false
 - category: original
   year: 2015
-  authors: "Nakane D†, Kenri T†, Matsuo L and Miyata M*"
-  title: "Systematic structural analyses of attachment organelle in <i>Mycoplasma pneumoniae</i>"
+  authors: Nakane D†, Kenri T†, Matsuo L and Miyata M*
+  title: Systematic structural analyses of attachment organelle in <i>Mycoplasma
+    pneumoniae</i>
   journal: "PLOS Pathogens 11: e1005299"
-  url: "https://doi.org/10.1371/journal.ppat.1005299"
+  url: https://doi.org/10.1371/journal.ppat.1005299
+  preprint: false
 - category: original
   year: 2015
-  authors: "Kurushima J, Nakane D, Nishizaka T and Tomita H*"
-  title: "Bacteriocin protein BacL1 of Enterococcus faecalis targets cell division loci and specifically recognizes L-Ala2-crossbridged peptidoglycan"
+  authors: Kurushima J, Nakane D, Nishizaka T and Tomita H*
+  title: Bacteriocin protein BacL1 of Enterococcus faecalis targets cell division
+    loci and specifically recognizes L-Ala2-crossbridged peptidoglycan
   journal: "Journal of Bacteriology 197: 286-95"
-  url: "https://doi.org/10.1128/JB.02203-14"
+  url: https://doi.org/10.1128/JB.02203-14
+  preprint: false
 - category: original
   year: 2014
-  authors: "Kinosita Y†, Nakane D†, Sugawa M, Masaike T, Mizutani K, Miyata M*, Nishizaka T*"
-  title: "Unitary step of gliding machinery in <i>Mycoplasma mobile</i>"
+  authors: Kinosita Y†, Nakane D†, Sugawa M, Masaike T, Mizutani K, Miyata M*,
+    Nishizaka T*
+  title: Unitary step of gliding machinery in <i>Mycoplasma mobile</i>
   journal: "Proc. Natl. Acad. Sci. USA 111: 8601-06"
-  url: "https://doi.org/10.1073/pnas.1310355111"
+  url: https://doi.org/10.1073/pnas.1310355111
+  preprint: false
 - category: original
   year: 2014
-  authors: "Narita Y, Sato K, Yukitake H, Shoji M, Nakane D, Nagano K, Yoshimura F, Naito M, Nakayama K*"
-  title: "Lack of a surface layer in <i>Tannerella forsythia</i> mutants deficient in the type IX secretion system"
+  authors: Narita Y, Sato K, Yukitake H, Shoji M, Nakane D, Nagano K, Yoshimura F,
+    Naito M, Nakayama K*
+  title: Lack of a surface layer in <i>Tannerella forsythia</i> mutants deficient
+    in the type IX secretion system
   journal: "Microbiology 160: 2295-303"
-  url: "https://doi.org/10.1099/mic.0.080192-0"
+  url: https://doi.org/10.1099/mic.0.080192-0
+  preprint: false
 - category: original
   year: 2013
-  authors: "Wada H*, Nakane D and Chen HY"
-  title: "Physical basis for the emergence of motility driven by cell-surface flow"
+  authors: Wada H*, Nakane D and Chen HY
+  title: Physical basis for the emergence of motility driven by cell-surface flow
   journal: "Physical Review Letters 111: 248102"
-  url: "https://doi.org/10.1103/PhysRevLett.111.248102"
+  url: https://doi.org/10.1103/PhysRevLett.111.248102
+  preprint: false
 - category: original
   year: 2013
-  authors: "Nakane D, Sato K, Wada H, McBride MJ* and Nakayama K*"
-  title: "Helical flow of surface protein required for bacterial gliding motility"
+  authors: Nakane D, Sato K, Wada H, McBride MJ* and Nakayama K*
+  title: Helical flow of surface protein required for bacterial gliding motility
   journal: "Proc. Natl. Acad. Sci. USA 110: 11145-11150"
-  url: "https://doi.org/10.1073/pnas.1219753110"
+  url: https://doi.org/10.1073/pnas.1219753110
+  preprint: false
 - category: original
   year: 2013
-  authors: "Kasai T, Nakane D, Ishida H, Ando H, Kiso M and Miyata M*"
-  title: "Binding in <i>Mycoplasma mobile</i> and <i>Mycoplasma pneumoniae</i> gliding analyzed through inhibition by synthesized sialylated compounds"
+  authors: Kasai T, Nakane D, Ishida H, Ando H, Kiso M and Miyata M*
+  title: Binding in <i>Mycoplasma mobile</i> and <i>Mycoplasma pneumoniae</i>
+    gliding analyzed through inhibition by synthesized sialylated compounds
   journal: "Journal of Bacteriology 195: 429-435"
-  url: "https://doi.org/10.1128/JB.01141-12"
+  url: https://doi.org/10.1128/JB.01141-12
+  preprint: false
 - category: original
   year: 2013
-  authors: "Taniguchi T, Miyauchi K, Nakane D, Miyata M, Muto A, Nishimura S and Suzuki T*"
-  title: "Decoding system for the AUA codon by tRNAIle with the UAU anticodo n in <i>Mycoplasma mobile</i>"
+  authors: Taniguchi T, Miyauchi K, Nakane D, Miyata M, Muto A, Nishimura S and
+    Suzuki T*
+  title: Decoding system for the AUA codon by tRNAIle with the UAU anticodo n in
+    <i>Mycoplasma mobile</i>
   journal: "Nucleic Acids Research 41: 2621-2631"
-  url: "https://doi.org/10.1093/nar/gks1344"
+  url: https://doi.org/10.1093/nar/gks1344
+  preprint: false
 - category: original
   year: 2012
-  authors: "Shrivastava A, Rhodes RG, Pochiraju S, Nakane D and McBride MJ*"
-  title: "<i>Flavobacterium johnsoniae</i> RemA is a mobile cell-surface lectin involved in gliding"
+  authors: Shrivastava A, Rhodes RG, Pochiraju S, Nakane D and McBride MJ*
+  title: <i>Flavobacterium johnsoniae</i> RemA is a mobile cell-surface lectin
+    involved in gliding
   journal: "Journal of Bacteriology 194: 3678-3688"
-  url: "https://doi.org/10.1128/JB.00588-12"
+  url: https://doi.org/10.1128/JB.00588-12
+  preprint: false
 - category: original
   year: 2012
-  authors: "Nakane D and Miyata M*"
-  title: "<i>Mycoplasma mobile</i> cells elongated by detergent and their pivoting movements in gliding"
+  authors: Nakane D and Miyata M*
+  title: <i>Mycoplasma mobile</i> cells elongated by detergent and their pivoting
+    movements in gliding
   journal: "Journal of Bacteriology 194: 122-130"
-  url: "https://doi.org/10.1128/JB.05857-11"
+  url: https://doi.org/10.1128/JB.05857-11
+  preprint: false
 - category: original
   year: 2012
-  authors: "Wu HN, Kawaguchi C, Nakane D and Miyata M*"
-  title: "\"Mycoplasmal antigen modulation,\" a novel surface variation suggested for a lipoprotein specifically localized on <i>Mycoplasma mobile</i>"
+  authors: Wu HN, Kawaguchi C, Nakane D and Miyata M*
+  title: '"Mycoplasmal antigen modulation," a novel surface variation suggested
+    for a lipoprotein specifically localized on <i>Mycoplasma mobile</i>'
   journal: "Current Microbiolgy 64: 433-440"
-  url: "https://doi.org/10.1007/s00284-012-0090-y"
+  url: https://doi.org/10.1007/s00284-012-0090-y
+  preprint: false
 - category: original
   year: 2012
-  authors: "Sato C*, Manaka S, Nakane D, Nishiyama H, Suga M, Nishizaka T, Miyata M, Maruyama Y"
-  title: "Rapid imaging of mycoplasma in solution using atmospheric scanning electron microscopy"
+  authors: Sato C*, Manaka S, Nakane D, Nishiyama H, Suga M, Nishizaka T, Miyata
+    M, Maruyama Y
+  title: Rapid imaging of mycoplasma in solution using atmospheric scanning
+    electron microscopy
   journal: "Biochemical and Biophysical Research Communications 417: 1213-1218"
-  url: "https://doi.org/10.1016/j.bbrc.2011.12.111"
+  url: https://doi.org/10.1016/j.bbrc.2011.12.111
+  preprint: false
 - category: original
   year: 2011
-  authors: "Nakane D, Adan-Kubo J, Kenri T, Miyata M*"
-  title: "Isolation and characterization of P1 adhesin, a leg protein of the gliding bacterium <i>Mycoplasma pneumoniae</i>"
+  authors: Nakane D, Adan-Kubo J, Kenri T, Miyata M*
+  title: Isolation and characterization of P1 adhesin, a leg protein of the
+    gliding bacterium <i>Mycoplasma pneumoniae</i>
   journal: "Journal of Bacteriology 193: 715-722"
-  url: "https://doi.org/10.1128/JB.00796-10"
+  url: https://doi.org/10.1128/JB.00796-10
+  preprint: false
 - category: original
   year: 2009
-  authors: "Nakane D and Miyata M*"
-  title: "Cytoskeletal asymmetrical-dumbbell structure of a gliding mycoplasma, <i>Mycoplasma gallisepticum</i>, revealed by negative-staining electron microscopy"
+  authors: Nakane D and Miyata M*
+  title: Cytoskeletal asymmetrical-dumbbell structure of a gliding mycoplasma,
+    <i>Mycoplasma gallisepticum</i>, revealed by negative-staining electron
+    microscopy
   journal: "Journal of Bacteriology 191: 3256-3264"
-  url: "https://doi.org/10.1128/JB.01823-08"
+  url: https://doi.org/10.1128/JB.01823-08
+  preprint: false
 - category: original
   year: 2009
-  authors: "Uenoyama A, Seto S, Nakane D and Miyata M*"
-  title: "Regions on Gli349 and Gli521 protein molecules directly involved in movements of <i>Mycoplasma mobile</i> gliding machinery suggested by inhibitory antibodies and mutants"
+  authors: Uenoyama A, Seto S, Nakane D and Miyata M*
+  title: Regions on Gli349 and Gli521 protein molecules directly involved in
+    movements of <i>Mycoplasma mobile</i> gliding machinery suggested by
+    inhibitory antibodies and mutants
   journal: "Journal of Bacteriology 191: 1982-1985"
-  url: "https://doi.org/10.1128/JB.01012-08"
+  url: https://doi.org/10.1128/JB.01012-08
+  preprint: false
 - category: original
   year: 2007
-  authors: "Nakane D and Miyata M*"
-  title: "Cytoskeletal \"jellyfish\" structure of <i>Mycoplasma mobile</i>"
+  authors: Nakane D and Miyata M*
+  title: Cytoskeletal "jellyfish" structure of <i>Mycoplasma mobile</i>
   journal: "Proc. Natl. Acad. Sci. USA 104: 19518-19523"
-  url: "https://doi.org/10.1073/pnas.0704280104"
+  url: https://doi.org/10.1073/pnas.0704280104
+  preprint: false
 - category: review
   year: 2025
-  authors: "上村直輝、中根大介*"
-  title: "微生物は極限環境でかしこく行動するのかな？"
+  authors: 上村直輝、中根大介*
+  title: 微生物は極限環境でかしこく行動するのかな？
   journal: "極限環境生物学会誌 23: 19-24"
-  url: ""
+  preprint: false
 - category: review
   year: 2025
-  authors: "Uemura NA and Nakane D*"
-  title: "Type IV pili in thermophilic bacteria: mechanisms and ecological implications"
+  authors: Uemura NA and Nakane D*
+  title: "Type IV pili in thermophilic bacteria: mechanisms and ecological
+    implications"
   journal: "Biomolecules 15: 459"
-  url: "https://doi.org/10.3390/biom15040459"
+  url: https://doi.org/10.3390/biom15040459
+  preprint: false
 - category: review
   year: 2024
-  authors: "Nakane D and Tulum I*"
-  title: "Overview of the Bacterial/Archaeal Supermolecular Assembly session at the 21st IUPAB and the 62nd Biophysics Society of Japan joint congress"
+  authors: Nakane D and Tulum I*
+  title: Overview of the Bacterial/Archaeal Supermolecular Assembly session at the
+    21st IUPAB and the 62nd Biophysics Society of Japan joint congress
   journal: "Biophysical Review 16: 533-536<i>.</i>"
-  url: "https://doi.org/10.1007/s12551-024-01220-7"
+  url: https://doi.org/10.1007/s12551-024-01220-7
+  preprint: false
 - category: review
   year: 2023
-  authors: "Minamino T*, Nakane D, Nakamura S, Kiyama H, Morimoto YV, Miyata M"
-  title: "Frontiers of microbial movement research"
+  authors: Minamino T*, Nakane D, Nakamura S, Kiyama H, Morimoto YV, Miyata M
+  title: Frontiers of microbial movement research
   journal: "Biophysics and Physicobiology 20: e200033"
-  url: "https://doi.org/10.2142/biophysico.bppb-v20.0033"
+  url: https://doi.org/10.2142/biophysico.bppb-v20.0033
+  preprint: false
 - category: review
   year: 2023
-  authors: "<b><u>Nakane D</u>*</b>"
-  title: "Rheotaxis in <i>Mycoplasma</i> gliding"
+  authors: <b><u>Nakane D</u>*</b>
+  title: Rheotaxis in <i>Mycoplasma</i> gliding
   journal: "Microbiology and Immunology 67: 389-395"
-  url: "https://doi.org/10.1111/1348-0421.13090"
+  url: https://doi.org/10.1111/1348-0421.13090
+  preprint: false
 - category: review
   year: 2023
-  authors: "Nakane D*"
-  title: "Live cell imaging of the twitching motility of cyanobacteria by high-resolution microscopy"
-  journal: "Methods in Molecular Biology [Bacterial and Archaeal Motility], Chapter 20: 255-263"
-  url: "https://link.springer.com/protocol/10.1007/978-1-0716-3060-0_20"
+  authors: Nakane D*
+  title: Live cell imaging of the twitching motility of cyanobacteria by
+    high-resolution microscopy
+  journal: "Methods in Molecular Biology [Bacterial and Archaeal Motility],
+    Chapter 20: 255-263"
+  url: https://link.springer.com/protocol/10.1007/978-1-0716-3060-0_20
+  preprint: false
 - category: review
   year: 2023
-  authors: "Shibata S*, and Nakane D"
-  title: "Isolation and visualization of gliding motility machinery in <i>Bacteroidota</i>"
-  journal: "Methods in Molecular Biology [Bacterial and Archaeal Motility], Chapter 21: 267-276"
-  url: "https://link.springer.com/protocol/10.1007/978-1-0716-3060-0_21"
+  authors: Shibata S*, and Nakane D
+  title: Isolation and visualization of gliding motility machinery in
+    <i>Bacteroidota</i>
+  journal: "Methods in Molecular Biology [Bacterial and Archaeal Motility],
+    Chapter 21: 267-276"
+  url: https://link.springer.com/protocol/10.1007/978-1-0716-3060-0_21
+  preprint: false
 - category: review
   year: 2023
-  authors: "Nakane D*, and Shibata S"
-  title: "Live cell imaging of gliding motility of <i>Bacteroidetes</i> under high-resolution microscopy"
-  journal: "Methods in Molecular Biology [Bacterial and Archaeal Motility], Chapter 22: 277-286"
-  url: "https://link.springer.com/protocol/10.1007/978-1-0716-3060-0_22"
+  authors: Nakane D*, and Shibata S
+  title: Live cell imaging of gliding motility of <i>Bacteroidetes</i> under
+    high-resolution microscopy
+  journal: "Methods in Molecular Biology [Bacterial and Archaeal Motility],
+    Chapter 22: 277-286"
+  url: https://link.springer.com/protocol/10.1007/978-1-0716-3060-0_22
+  preprint: false
 - category: review
   year: 2023
-  authors: "Nakane D<i>*.</i>"
-  title: "Swimming motility assays of <i>Spiroplasma</i>"
-  journal: "Methods in Molecular Biology [Bacterial and Archaeal Motility], Chapter 31: 373-381"
-  url: "https://link.springer.com/protocol/10.1007/978-1-0716-3060-0_31"
+  authors: Nakane D<i>*.</i>
+  title: Swimming motility assays of <i>Spiroplasma</i>
+  journal: "Methods in Molecular Biology [Bacterial and Archaeal Motility],
+    Chapter 31: 373-381"
+  url: https://link.springer.com/protocol/10.1007/978-1-0716-3060-0_31
+  preprint: false
 - category: review
   year: 2022
-  authors: "Trivedi A, Gosai J, Nakane D, Shrivastava A"
-  title: "Design principles of the rotary type 9 secretion system"
+  authors: Trivedi A, Gosai J, Nakane D, Shrivastava A
+  title: Design principles of the rotary type 9 secretion system
   journal: "Frontiers in Microbiology 13: 845563"
-  url: "https://www.frontiersin.org/articles/10.3389/fmicb.2022.845563/full"
+  url: https://www.frontiersin.org/articles/10.3389/fmicb.2022.845563/full
+  preprint: false
 - category: review
   year: 2021
-  authors: "西坂崇之, 加藤孝信, 中根大介"
-  title: "精密3次元位置検出が拓く多様な分子モーター研究への新しいアプローチ"
+  authors: 西坂崇之, 加藤孝信, 中根大介
+  title: 精密3次元位置検出が拓く多様な分子モーター研究への新しいアプローチ
   journal: "生物物理 31: 10-16"
-  url: "https://doi.org/10.2142/biophys.61.395"
+  url: https://doi.org/10.2142/biophys.61.395
+  preprint: false
 - category: review
   year: 2020
-  authors: "中根大介*, 西坂崇之"
-  title: "動きの可視化から紐解くバクテリアの新しい世界"
+  authors: 中根大介*, 西坂崇之
+  title: 動きの可視化から紐解くバクテリアの新しい世界
   journal: "日本乳酸菌学会誌 31: 10-16"
-  url: "https://doi.org/10.4109/jslab.31.10"
+  url: https://doi.org/10.4109/jslab.31.10
+  preprint: false
 - category: review
   year: 2020
-  authors: "Miyata M*, Robinson RC*, Uyeda TQP*, Fukumori Y, Fukushima SI, Haruta S, Homma M, Inaba K, Ito M, Kaito C, Kato K, Kenri T, Kinosita Y, Kojima S, Minamino T, Mori H, Nakamura S, Nakane D, Nakayama K, Nishiyama M, Shibata S, Shimabukuro K, Tamakoshi M, Taoka A, Tashiro Y, Tulum I, Wada H, Wakabayashi KI"
-  title: "Tree of motility - A proposed history of motility systems in the tree of life"
+  authors: Miyata M*, Robinson RC*, Uyeda TQP*, Fukumori Y, Fukushima SI, Haruta
+    S, Homma M, Inaba K, Ito M, Kaito C, Kato K, Kenri T, Kinosita Y, Kojima S,
+    Minamino T, Mori H, Nakamura S, Nakane D, Nakayama K, Nishiyama M, Shibata
+    S, Shimabukuro K, Tamakoshi M, Taoka A, Tashiro Y, Tulum I, Wada H,
+    Wakabayashi KI
+  title: Tree of motility - A proposed history of motility systems in the tree of life
   journal: "Genes to Cells 25: 6-21"
-  url: "https://doi.org/10.1111/gtc.12737"
+  url: https://doi.org/10.1111/gtc.12737
+  preprint: false
 - category: review
   year: 2019
-  authors: "Nishizaka T*, Masaike T, and Nakane D"
-  title: "Insights into the mechanism of ATP-driven rotary motors from direct torque measurement"
+  authors: Nishizaka T*, Masaike T, and Nakane D
+  title: Insights into the mechanism of ATP-driven rotary motors from direct
+    torque measurement
   journal: "Biophysical Reviews 11: 653-657"
-  url: "https://doi.org/10.1007/s12551-019-00564-9"
+  url: https://doi.org/10.1007/s12551-019-00564-9
+  preprint: false
 - category: review
   year: 2019
-  authors: "Tezuka T, Nakane D, Kimura T, Ohnishi Y"
-  title: "Preparation of <i>Actinoplanes missouriensis</i> zoospores and assay for their adherence to solid surfaces"
+  authors: Tezuka T, Nakane D, Kimura T, Ohnishi Y
+  title: Preparation of <i>Actinoplanes missouriensis</i> zoospores and assay for
+    their adherence to solid surfaces
   journal: "Bio-protocol 9: e3458"
-  url: "https://doi.org/10.21769/BioProtoc.3458"
+  url: https://doi.org/10.21769/BioProtoc.3458
+  preprint: false
 - category: review
   year: 2018
-  authors: "中根大介*, 西坂崇之"
-  title: "光に応答したバクテリアIV型線毛の動的制御"
+  authors: 中根大介*, 西坂崇之
+  title: 光に応答したバクテリアIV型線毛の動的制御
   journal: "生物物理 58: 207-208"
-  url: "https://doi.org/10.2142/biophys.58.207"
+  url: https://doi.org/10.2142/biophys.58.207
+  preprint: false
 - category: review
   year: 2018
-  authors: "中根大介*, 西坂崇之"
-  title: "シアノバクテリアの運動"
+  authors: 中根大介*, 西坂崇之
+  title: シアノバクテリアの運動
   journal: "生物工学会誌 96: 244-247"
-  url: ""
+  preprint: false
 - category: review
   year: 2015
-  authors: "McBride MJ* and Nakane D"
-  title: "<i>Flavobacterium</i> gliding motility and the type IX secretion system"
+  authors: McBride MJ* and Nakane D
+  title: <i>Flavobacterium</i> gliding motility and the type IX secretion system
   journal: "Current Opinion in Microbiology 28: 72-77"
-  url: "https://doi.org/10.1016/j.mib.2015.07.016"
+  url: https://doi.org/10.1016/j.mib.2015.07.016
+  preprint: false
 - category: review
   year: 2015
-  authors: "中根大介*"
-  title: "細菌の滑走運動メカニズムに関する研究"
+  authors: 中根大介*
+  title: 細菌の滑走運動メカニズムに関する研究
   journal: "日本細菌学雑誌 70: 375-82"
-  url: "https://doi.org/10.3412/jsb.70.375"
+  url: https://doi.org/10.3412/jsb.70.375
+  preprint: false
 - category: review
   year: 2015
-  authors: "中根大介*, 中山浩次, 西坂崇之"
-  title: "バクテリア滑走運動の新しいメカニズム ~戦車のような仕組みで動くバクテリア~"
+  authors: 中根大介*, 中山浩次, 西坂崇之
+  title: バクテリア滑走運動の新しいメカニズム ~戦車のような仕組みで動くバクテリア~
   journal: "生物と化学 53: 215-216"
-  url: "https://doi.org/10.1271/kagakutoseibutsu.53.215"
+  url: https://doi.org/10.1271/kagakutoseibutsu.53.215
+  preprint: false
 - category: review
   year: 2014
-  authors: "中根大介*, 中山浩次, 西坂崇之"
-  title: "戦車のような仕組みで動くバクテリア"
+  authors: 中根大介*, 中山浩次, 西坂崇之
+  title: 戦車のような仕組みで動くバクテリア
   journal: "生物物理 54: 269-270"
-  url: "https://doi.org/10.2142/biophys.54.269"
+  url: https://doi.org/10.2142/biophys.54.269
+  preprint: false
 - category: review
   year: 2010
-  authors: "宮田真人*, 中根大介"
-  title: "病原細菌, マイコプラズマのユニークな滑走運動を支える細胞骨格"
+  authors: 宮田真人*, 中根大介
+  title: 病原細菌, マイコプラズマのユニークな滑走運動を支える細胞骨格
   journal: "生物の科学 遺伝 64: 47-51"
-  url: ""
+  preprint: false
 - category: review
   year: 2009
-  authors: "宮田真人*, 中根大介"
-  title: "<i>Mycoplasma pneumoniae</i> の滑走運動"
+  authors: 宮田真人*, 中根大介
+  title: <i>Mycoplasma pneumoniae</i> の滑走運動
   journal: "生体の科学 60: 98-102"
-  url: ""
+  preprint: false
