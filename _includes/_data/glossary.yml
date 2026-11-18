@@ -1,0 +1,87 @@
+# 自動翻訳の用語集。ここに書いた言葉は、英訳のときに必ずこの書き方になります。
+# ja = 日本語、en = 英語での書き方、note = 補足（省略可）
+# 研究室のメンバーと卒業生の名前は、メンバー一覧・研究テーマ一覧から自動で読み取るので、ここに書く必要はありません。
+# 学外の人の名前（読みが難しいもの）や、学会・賞・専門用語を足してください。
+
+# ---- 人名（学外）----
+- ja: 菅
+  en: Kan
+  note: Prof. Kan, Kan Lab at UEC
+- ja: 宮田
+  en: Miyata
+- ja: 新竹
+  en: Shintake
+- ja: 田仲
+  en: Tanaka
+- ja: 小髙
+  en: Kotaka
+- ja: 菊池
+  en: Kikuchi
+- ja: 榎本
+  en: Gen
+  note: Gen Enomoto (he/him), former postdoc of the lab, now at Tokyo University of Agriculture. Write just Gen in news posts; Enomoto G in citations
+- ja: 佐久間
+  en: Daisuke Sakuma
+  note: Student of the Nishizaka Lab at Gakushuin University (he/him). Always the full name, because plain Daisuke means Daisuke Nakane
+
+# ---- 研究の用語 ----
+- ja: 走流性
+  en: rheotaxis
+- ja: 走光性
+  en: phototaxis
+- ja: 走熱性
+  en: thermotaxis
+- ja: 走化性
+  en: chemotaxis
+- ja: 滑走運動
+  en: gliding motility
+- ja: べん毛
+  en: flagella
+  note: singular flagellum
+- ja: IV型線毛
+  en: type IV pili
+- ja: ドリル運動
+  en: drill-like motility
+- ja: 微小流体デバイス
+  en: microfluidic device
+- ja: 光学顕微鏡
+  en: optical microscope
+- ja: 好熱菌
+  en: thermophilic bacteria
+- ja: 藍藻
+  en: cyanobacteria
+- ja: 磁性細菌
+  en: magnetotactic bacteria
+
+# ---- 大学・学会・研究費・賞 ----
+- ja: 電通大
+  en: UEC
+- ja: 学振特別研究員
+  en: JSPS Research Fellow
+- ja: 科研費
+  en: KAKENHI
+- ja: 学術変革領域研究(B)「微生物が動く意味」
+  en: the KAKENHI Transformative Research Areas (B) project "Why Microbes Move"
+  note: 学変B と略されることがある
+- ja: 日本細菌学会
+  en: Japanese Society for Bacteriology
+- ja: 日本微生物生態学会
+  en: Japanese Society of Microbial Ecology
+- ja: 日本生物物理学会
+  en: Biophysical Society of Japan
+- ja: 関東支部会
+  en: Kanto Branch Meeting
+- ja: 優秀発表賞
+  en: Excellent Presentation Award
+- ja: 最優秀ポスター賞
+  en: Best Poster Award
+- ja: 優秀ポスター賞
+  en: Excellent Poster Award
+- ja: 卒研
+  en: undergraduate research
+- ja: 修論
+  en: master's thesis
+- ja: オープンキャンパス
+  en: open campus
+- ja: 調布北高校
+  en: Chofu-kita High School
