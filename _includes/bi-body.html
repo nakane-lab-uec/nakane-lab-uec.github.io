@@ -1,12 +1,14 @@
 {% comment %}
   本文の日英切り替え。include.ja = 日本語本文（HTML）、include.en = 英語本文（HTML、空でもよい）
   英語がまだ無いときは、英語モードでも日本語本文を表示し、その旨を小さく添える。
+  編集画面で保存し直すと、画像の場所が「assets/…」（先頭の / が抜けた形）になることがあるので、ここで補う。
 {% endcomment %}
-{% assign en = include.en | strip %}
+{% assign ja = include.ja | replace: 'src="assets/', 'src="/assets/' | replace: 'href="assets/', 'href="/assets/' %}
+{% assign en = include.en | strip | replace: 'src="assets/', 'src="/assets/' | replace: 'href="assets/', 'href="/assets/' %}
 {% if en != "" %}
-<div lang="ja">{{ include.ja }}</div>
-<div lang="en">{{ include.en }}</div>
+<div lang="ja">{{ ja }}</div>
+<div lang="en">{{ en }}</div>
 {% else %}
 <p class="no-en" lang="en">This content is available in Japanese only.</p>
-{{ include.ja }}
+{{ ja }}
 {% endif %}

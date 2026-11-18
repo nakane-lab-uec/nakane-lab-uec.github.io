@@ -12,7 +12,7 @@ description: 中根研究室のお知らせ。学会発表、論文掲載、研�
   {% for p in y.items %}
   <a class="nrow" href="{{ p.url | relative_url }}">
     <span class="nth">{% if p.image %}<img src="{{ p.image | relative_url }}" alt="" loading="lazy">{% endif %}</span>
-    <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%m.%d" }}</time>
+    <time datetime="{{ p.date | date: "%Y-%m-%dT%H:%M:%S+09:00" }}">{{ p.date | date: "%m.%d" }}</time>
     <span class="t">{{ p.title }}</span>
   </a>
   {% endfor %}

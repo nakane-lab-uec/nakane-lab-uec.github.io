@@ -32,7 +32,7 @@
   name_en: Miyata Lab, Graduate School of Science, Osaka Metropolitan University
   url: https://www.naniwa-em.com/
   note: 中根が学位を取得した研究室です。当時は大阪市立大学という名称でした。
-  note_en: The lab where Nakane earned his Ph.D. Back then, the university was
+  note_en: The lab where Daisuke earned his Ph.D. Back then, the university was
     called Osaka City University.
 - section: external
   period: 2011-2013年
@@ -41,7 +41,7 @@
     Nagasaki University
   url: https://www.de.nagasaki-u.ac.jp/education/dept_moi.html
   note: 中根がポスドクとして2年間過ごしました。そのとき教授だった中山浩次先生は2018年3月に退官されました。
-  note_en: Nakane spent two years here as a postdoc. Prof. Nakayama, who was the
+  note_en: Daisuke spent two years here as a postdoc. Prof. Nakayama, who was the
     professor at the time, retired in March 2018.
 - section: external
   period: 2013-2020年
@@ -49,7 +49,7 @@
   name_en: Nishizaka Lab, Department of Physics, Gakushuin University
   url: https://www.gakushuin.ac.jp/univ/sci/phys/nishizaka/lab/index.html
   note: 中根が助教として 7年半過ごしました。格好良い顕微鏡がたくさん。
-  note_en: Nakane spent seven and a half years here as an assistant professor.
+  note_en: Daisuke spent seven and a half years here as an assistant professor.
     Lots of cool microscopes.
 - section: external
   period: 2006年~
@@ -66,7 +66,7 @@
   name_en: University of Wisconsin Milwaukee, McBride Lab
   url: https://uwm.edu/biology/people/mcbride-mark/
   note: ポスドクのときに2か月滞在しました。ジョンソニエの滑走運動について共同研究をしました。
-  note_en: Nakane stayed here for two months as a postdoc. We collaborated on the
+  note_en: Daisuke stayed here for two months as a postdoc. We collaborated on the
     gliding motility of Flavobacterium johnsoniae.
 - section: external
   period: 2012年~
@@ -125,9 +125,9 @@
   url: https://bakteriengenetik.biologie.uni-freiburg.de/
   note: シアノバクテリアの走光性の研究で共同研究をしました。一緒に実験していた[榎本さん](https://genenomoto.github.io/)は2024年から東京農大の先生になりました。榎本さんの所属する応用微生物学研究室の梶川さんとは[乳酸菌](https://www.nodai.ac.jp/academics/app/app/lab/604/)でお世話になっています。
   note_en: We collaborated on phototaxis in cyanobacteria.
-    [Enomoto](https://genenomoto.github.io/), who did experiments with us,
+    [Gen](https://genenomoto.github.io/), who did experiments with us,
     became a faculty member at Tokyo University of Agriculture in 2024.
-    Kajikawa, from the Applied Microbiology Lab where Enomoto works, has been
+    Kajikawa, from the Applied Microbiology Lab where Gen works, has been
     helping us with [lactic acid
     bacteria](https://www.nodai.ac.jp/academics/app/app/lab/604/).
 - section: external
@@ -170,14 +170,14 @@
   name_en: Shimabukuro Lab, National Institute of Technology, Ube College
   url: https://sites.google.com/site/shimabukurolab/
   note: 上村くんはここで3年半ほど過ごしましたや。
-  note_en: Uemura spent about three and a half years here.
+  note_en: Naoki spent about three and a half years here.
 - section: external
   period: 2023年~
   name: 東京農工大 村山研
   name_en: Murayama Lab, Tokyo University of Agriculture and Technology
   url: https://web.tuat.ac.jp/~ymura/
   note: 細菌の運動を小倉くんが頑張ってくれています。
-  note_en: Ogura is working hard on bacterial motility for us.
+  note_en: Naoki Ogura is working hard on bacterial motility for us.
 - section: external
   period: 2023年~
   name: 琉球大学 昆虫学研究室
@@ -200,7 +200,7 @@
   name_en: Department of Bacteriology I, National Institute of Infectious Diseases
   note: 伊豫田先生のところの[小髙さん](https://kotaka-yuto.jp/)が上村くんと共同研究を進めています。
   note_en: "[Kotaka](https://kotaka-yuto.jp/) from Prof. Iyoda's group is
-    collaborating with Uemura."
+    collaborating with Naoki."
 - section: external
   period: 2024年~
   name: 調布北高校

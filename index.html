@@ -147,10 +147,10 @@ title: 中根研究室 Nakane Lab@UEC
     <div class="head reveal">
       <span class="label"><span>MOVIES</span></span>
       <h2><span lang="ja">顕微鏡でのぞいた世界</span><span lang="en">Under the microscope</span></h2>
-      <p class="lead"><span lang="ja">細菌の動きを YouTube で公開しています。サムネイルを押すとその場で再生します。</span><span lang="en">Microbe movies from our YouTube channel. Tap a thumbnail to play.</span></p>
+      <p class="lead"><span lang="ja">細菌の動きを YouTube で公開しています。開くたびに、ちがう動画が並びます。サムネイルを押すとその場で再生します。</span><span lang="en">Microbe movies from our YouTube channel. A different selection appears on each visit. Tap a thumbnail to play.</span></p>
     </div>
-    <!-- 動画カードは _data/videos.yml から作られます -->
-    <div class="gallery" id="gallery">
+    <!-- 動画カードは _data/videos.yml から作られます。リストが video_count（_config.yml）より多いと、開くたびにランダムに選んで表示します -->
+    <div class="gallery" id="gallery" data-show="{{ site.video_count | default: 3 }}">
       {% for v in site.data.videos %}{% capture tpath %}/assets/img/videos/{{ v.id }}.jpg{% endcapture %}{% assign local = site.static_files | where: "path", tpath | first %}
       <article class="vcard reveal">
         <a class="yt" href="https://www.youtube.com/watch?v={{ v.id }}" data-id="{{ v.id }}" target="_blank" rel="noopener" aria-label="{{ v.en }}"><img src="{% if local %}{{ tpath | relative_url }}{% else %}https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg{% endif %}" alt="" loading="lazy"><span class="pbtn" aria-hidden="true"></span></a>
@@ -160,7 +160,10 @@ title: 中根研究室 Nakane Lab@UEC
       </article>
       {% endfor %}
     </div>
-    <div class="center"><a class="btn" data-channel href="https://www.youtube.com/channel/UCpgRsoOOei7fWkbZAa9eUtg"><span class="play" aria-hidden="true"></span><span lang="ja">YouTube チャンネルへ</span><span lang="en">Our YouTube channel</span></a></div>
+    <div class="center video-actions">
+      <button class="btn ghost" id="shuffle-videos" type="button" hidden><span aria-hidden="true">↻</span><span lang="ja">ほかの動画を見る</span><span lang="en">Show other videos</span></button>
+      <a class="btn" data-channel href="https://www.youtube.com/channel/UCpgRsoOOei7fWkbZAa9eUtg"><span class="play" aria-hidden="true"></span><span lang="ja">YouTube チャンネルへ</span><span lang="en">Our YouTube channel</span></a>
+    </div>
   </div>
 </section>
 
@@ -201,7 +204,7 @@ title: 中根研究室 Nakane Lab@UEC
       </div>
       <div class="card reveal"><h3><span lang="ja">他大学からも歓迎</span><span lang="en">Other universities welcome</span></h3><p><span lang="ja">他大学の学生からの相談も歓迎します。</span><span lang="en">We welcome inquiries from students at other universities.</span></p></div>
       <div class="card reveal"><h3><span lang="ja">大学院入試の英語は外部試験で</span><span lang="en">Graduate entrance exam: English via TOEIC / TOEFL</span></h3><p><span lang="ja">大学院入試の英語は、TOEIC / TOEFL のスコアから換算されます。出願時にスコアシートの提出が必要です。</span><span lang="en">In the graduate school entrance exam, English is evaluated from your TOEIC / TOEFL score. Submit the score sheet with your application.</span></p></div>
-      <div class="card reveal"><h3><span lang="ja">小中高生のみなさんへ</span><span lang="en">For school students</span></h3><p><span lang="ja">電通大では、高等学校を対象とした<a href="https://sites.google.com/view/uec-arc/%E5%87%BA%E5%BC%B5%E8%AC%9B%E7%BE%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" rel="noopener">出張講義</a>を実施しています。中根は、日本生物物理学会の<a href="https://www.biophys.jp/org/org08_list.html" rel="noopener">小中高校への講師派遣サポート事業</a>の講師もしています。中高生向けの<a href="https://yumenavi.info/portal.aspx?CLGAKOCD=033840&amp;p=s033840051" rel="noopener">夢ナビ mini講義</a>もどうぞ。</span><span lang="en">UEC offers <a href="https://sites.google.com/view/uec-arc/%E5%87%BA%E5%BC%B5%E8%AC%9B%E7%BE%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" rel="noopener">visiting lectures</a> for high schools. Nakane is also a lecturer in the Biophysical Society of Japan's <a href="https://www.biophys.jp/org/org08_list.html" rel="noopener">program that sends lecturers to elementary, junior high and high schools</a>. See also our <a href="https://yumenavi.info/portal.aspx?CLGAKOCD=033840&amp;p=s033840051" rel="noopener">mini lecture for high-school students</a> (in Japanese).</span></p></div>
+      <div class="card reveal"><h3><span lang="ja">小中高生のみなさんへ</span><span lang="en">For school students</span></h3><p><span lang="ja">電通大では、高等学校を対象とした<a href="https://sites.google.com/view/uec-arc/%E5%87%BA%E5%BC%B5%E8%AC%9B%E7%BE%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" rel="noopener">出張講義</a>を実施しています。中根は、日本生物物理学会の<a href="https://www.biophys.jp/org/org08_list.html" rel="noopener">小中高校への講師派遣サポート事業</a>の講師もしています。中高生向けの<a href="https://yumenavi.info/portal.aspx?CLGAKOCD=033840&amp;p=s033840051" rel="noopener">夢ナビ mini講義</a>もどうぞ。</span><span lang="en">UEC offers <a href="https://sites.google.com/view/uec-arc/%E5%87%BA%E5%BC%B5%E8%AC%9B%E7%BE%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" rel="noopener">visiting lectures</a> for high schools. Daisuke is also a lecturer in the Biophysical Society of Japan's <a href="https://www.biophys.jp/org/org08_list.html" rel="noopener">program that sends lecturers to elementary, junior high and high schools</a>. See also our <a href="https://yumenavi.info/portal.aspx?CLGAKOCD=033840&amp;p=s033840051" rel="noopener">mini lecture for high-school students</a> (in Japanese).</span></p></div>
     </div>
   </div>
 </section>

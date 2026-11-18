@@ -21,8 +21,15 @@ url: "https://nakane-lab-uec.github.io"
 baseurl: ""
 
 lang: ja
-timezone: Asia/Tokyo
+# 記事の日時は「入力したとおりの日本時間」として扱います。
+# 編集画面（Pages CMS）は、入力した時刻に +0000 を付けて保存します。ここを UTC にしておくと、
+# 入力した日付がそのままサイトに表示されます（Asia/Tokyo にすると 9 時間ずれて、夕方以降の記事が翌日の日付になります）。
+timezone: UTC
 future: true   # 日付が未来の記事もすぐ表示する
+
+# トップページ「顕微鏡でのぞいた世界」に一度に並べる動画の数。
+# 動画リスト（_data/videos.yml）がこれより多いと、開くたびにランダムに選んで表示します。
+video_count: 3
 markdown: kramdown
 kramdown:
   input: GFM

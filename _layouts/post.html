@@ -5,7 +5,7 @@ layout: default
   <header class="page-head colonies">
     <div class="wrap narrow">
       <a class="back" href="{{ '/news/' | relative_url }}">← <span lang="ja">お知らせ一覧</span><span lang="en">All news</span></a>
-      <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+      <time class="post-date" datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%S+09:00" }}">{{ page.date | date: "%Y.%m.%d" }}</time>
       <h1 class="post-title"><span lang="ja">{{ page.title }}</span><span lang="en">{{ page.title_en | default: page.title }}</span></h1>
     </div>
   </header>

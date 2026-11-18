@@ -85,7 +85,7 @@
   "@type": "BlogPosting",
   "headline": {{ page.title | jsonify }},
   {% if page.title_en %}"alternativeHeadline": {{ page.title_en | jsonify }},{% endif %}
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "datePublished": "{{ page.date | date: "%Y-%m-%dT%H:%M:%S+09:00" }}",
   "image": "{{ seo_image }}",
   "url": "{{ page.url | absolute_url }}",
   "inLanguage": "ja",

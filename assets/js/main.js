@@ -3,8 +3,7 @@
   var root = document.documentElement;
   root.classList.add('js');
 
-  // ===== 動画リスト：ここに YouTube の動画を追加するとギャラリーに並びます =====
-  // id は https://www.youtube.com/watch?v=XXXXXXXXXXX の XXXXXXXXXXX 部分
+  // 動画リストは _data/videos.yml（編集画面の「トップページの動画」）にあります
   var CHANNEL = 'https://www.youtube.com/channel/UCpgRsoOOei7fWkbZAa9eUtg';
   var UPLOADS = 'UUpgRsoOOei7fWkbZAa9eUtg'; // チャンネル全動画のプレイリスト
   var VIDEOS = window.LAB_VIDEOS || [];
@@ -71,6 +70,35 @@
     b.replaceWith(wrap);
   });
   document.querySelectorAll('[data-channel]').forEach(function (a) { a.href = CHANNEL; });
+
+  // Random videos: the list (_data/videos.yml) can hold any number of videos.
+  // Each visit shows `data-show` of them, picked at random; the button swaps in the ones not shown yet.
+  (function () {
+    if (!gallery) return;
+    var cards = Array.prototype.slice.call(gallery.querySelectorAll('.vcard'));
+    var show = parseInt(gallery.getAttribute('data-show'), 10) || cards.length;
+    var btn = document.getElementById('shuffle-videos');
+    if (cards.length < 2) return;
+    cards.forEach(function (c) { var a = c.querySelector('.yt'); if (a) c._facade = a.cloneNode(true); });
+    function mix(list) {                                   // Fisher-Yates
+      for (var i = list.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = list[i]; list[i] = list[j]; list[j] = t; }
+      return list;
+    }
+    function deal(first) {
+      var shown = cards.filter(function (c) { return !c.hidden; }), rest = cards.filter(function (c) { return c.hidden; });
+      // first load: any of them. Later: the ones not on screen come first, so every press shows something new
+      var order = first ? mix(cards.slice()) : mix(rest).concat(mix(shown));
+      var pick = order.slice(0, show);
+      cards.forEach(function (c) {
+        var on = pick.indexOf(c) !== -1;
+        if (!on) { var playing = c.querySelector('div.yt'); if (playing && c._facade) playing.replaceWith(c._facade.cloneNode(true)); }   // stop a video that is being put away
+        c.hidden = !on;
+      });
+      pick.forEach(function (c) { gallery.appendChild(c); });
+    }
+    deal(true);
+    if (btn && cards.length > show) { btn.hidden = false; btn.addEventListener('click', function () { deal(false); }); }
+  })();
 
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
