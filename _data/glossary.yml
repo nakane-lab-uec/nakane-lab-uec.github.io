@@ -1,30 +1,24 @@
-# 自動翻訳の用語集。ここに書いた言葉は、英訳のときに必ずこの書き方になります。
-# ja = 日本語、en = 英語での書き方、note = 補足（省略可）
-# 研究室のメンバーと卒業生の名前は、メンバー一覧・研究テーマ一覧から自動で読み取るので、ここに書く必要はありません。
-# 学外の人の名前（読みが難しいもの）や、学会・賞・専門用語を足してください。
-
-# ---- 人名（学外）----
 - ja: 菅
-  en: Kan
+  en: Tetsuo
   note: Prof. Kan, Kan Lab at UEC
 - ja: 宮田
-  en: Miyata
+  en: Makoto
 - ja: 新竹
-  en: Shintake
+  en: Jun
 - ja: 田仲
-  en: Tanaka
+  en: Makiko
 - ja: 小髙
-  en: Kotaka
+  en: Yuto
 - ja: 菊池
-  en: Kikuchi
+  en: Yoshitomo
 - ja: 榎本
   en: Gen
-  note: Gen Enomoto (he/him), former postdoc of the lab, now at Tokyo University of Agriculture. Write just Gen in news posts; Enomoto G in citations
+  note: Gen Enomoto (he/him), former postdoc of the lab, now at Tokyo University
+    of Agriculture. Write just Gen in news posts; Enomoto G in citations
 - ja: 佐久間
   en: Daisuke Sakuma
-  note: Student of the Nishizaka Lab at Gakushuin University (he/him). Always the full name, because plain Daisuke means Daisuke Nakane
-
-# ---- 研究の用語 ----
+  note: Student of the Nishizaka Lab at Gakushuin University (he/him). Always the
+    full name, because plain Daisuke means Daisuke Nakane
 - ja: 走流性
   en: rheotaxis
 - ja: 走光性
@@ -40,8 +34,9 @@
   note: singular flagellum
 - ja: IV型線毛
   en: type IV pili
+  note: T4P とも書く
 - ja: ドリル運動
-  en: drill-like motility
+  en: flagellar wrapping motility
 - ja: 微小流体デバイス
   en: microfluidic device
 - ja: 光学顕微鏡
@@ -52,8 +47,6 @@
   en: cyanobacteria
 - ja: 磁性細菌
   en: magnetotactic bacteria
-
-# ---- 大学・学会・研究費・賞 ----
 - ja: 電通大
   en: UEC
 - ja: 学振特別研究員
@@ -80,7 +73,7 @@
 - ja: 卒研
   en: undergraduate research
 - ja: 修論
-  en: master's thesis
+  en: master thesis
 - ja: オープンキャンパス
   en: open campus
 - ja: 調布北高校
